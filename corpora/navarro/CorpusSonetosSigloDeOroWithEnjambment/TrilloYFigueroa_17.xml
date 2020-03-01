@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Trillo y Figueroa</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIV - Imitando a Boecio </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-" enjamb="B-ex_subj_verb" cert="low">Dichoso aquel a quien la amarga muerte</l>
+				<l n="2" met="++-+---+-+-" enjamb="I-ex_subj_verb" cert="low">no tronca el tiempo de sus dulces años,</l>
+				<l n="3" met="-+-+-+---+-" enjamb="B-pb_noun_prep" cert="mid">y aquel que no alimenta desengaños</l>
+				<l n="4" met="--+--+---+-" enjamb="I-pb_noun_prep" cert="mid">con el cebo engañoso de la suerte.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-" enjamb="B-ex_dobj_verb" cert="low">Dichoso (si hay alguno) aquel que advierte</l>
+				<l n="6" met="-+---+---+-" enjamb="I-ex_dobj_verb" cert="low">su riesgo al resplandor de los extraños,</l>
+				<l n="7" met="-+---+---+-">y aquel que, mariposa a los engaños,</l>
+				<l n="8" met="---+---+-+-">entre las llamas el ardor advierte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-" enjamb="B-ex_subj_verb" cert="low">Dichoso el que con vuelo reposado</l>
+				<l n="10" met="--+--+---+-" enjamb="B-pb_adj_prep I-ex_subj_verb" cert="low low">a la cumbre se acerca fatigable</l>
+				<l n="11" met="-+-+---+-+-" enjamb="I-pb_adj_prep" cert="low">de la alta ruina a que el honor aspira,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-" enjamb="B-ex_subj_verb" cert="low">y mucho más aquel que retirado</l>
+				<l n="13" met="+----+---+-" enjamb="I-ex_subj_verb" cert="low">vive de la fortuna incontrastable,</l>
+				<l n="14" met="-+---+--++-">limando con su paz su cruel ira.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,15 @@
+FileName	Line	LNbr	EnjType
+González,_Diego__032e~~A_la_paz_ventajosamente_concluida_por_Carlos_III__0165.xml	dones mil del tesoro inagotable	8	B-pb_noun_prep I-ex_dobj_verb
+González,_Diego__032e~~A_la_paz_ventajosamente_concluida_por_Carlos_III__0165.xml	de su amor, y por Carlos negociada,	9	I-pb_noun_prep
+Álvarez_de_Cienfuegos,_Nicasio__015e~~Soneto_a_un_valiente_andaluz__0087.xml	mas al estar sus hechos él diciendo	11	B-ex_subj_verb
+Álvarez_de_Cienfuegos,_Nicasio__015e~~Soneto_a_un_valiente_andaluz__0087.xml	ve un ratón, y corriendo desbocado,	12	I-ex_subj_verb
+Beña,_Cristóbal_de__026e~~Para_servir_de_epitafio_a_la_sepultura_del_general__0116.xml	la misma brecha que trepó con gloria	11	B-ex_subj_verb
+Beña,_Cristóbal_de__026e~~Para_servir_de_epitafio_a_la_sepultura_del_general__0116.xml	le vio caer con una y otra herida,	12	I-ex_subj_verb
+Fray_Diego_González__024e~~A_la_paz__0114.xml	dones mil del tesoro inagotable	8	B-pb_noun_prep I-ex_dobj_verb
+Fray_Diego_González__024e~~A_la_paz__0114.xml	de su amor; y por Carlos negociada,	9	I-pb_noun_prep
+Fray_Diego_González__024e~~A_la_paz__0114.xml	La guerra cruel corriendo apresurada	11	B-ex_subj_verb
+Fray_Diego_González__024e~~A_la_paz__0114.xml	tantos despojos deja en nuestra tierra,	12	I-ex_subj_verb
+García_de_la_Huerta,_Vicente__030e~~A_la_feliz_expedición_contra_Argel_en_1784__0158.xml	abras a Argel. Adversidad ninguna	11	B-ex_subj_verb
+García_de_la_Huerta,_Vicente__030e~~A_la_feliz_expedición_contra_Argel_en_1784__0158.xml	intimida al varón Constante y fuerte;	12	I-ex_subj_verb
+Verdugo_Castilla,_Alfonso__052e~~Soneto_satírico__0308.xml	en luz, robada no, sino influida	11	B-pb_adj_prep
+Verdugo_Castilla,_Alfonso__052e~~Soneto_satírico__0308.xml	de numen tal, que a su eficacia pura	12	I-pb_adj_prep

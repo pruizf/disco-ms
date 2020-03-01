@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XII - A la desembocadura del Betis </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--++--+-">Soto; aquí donde el gran Betis desciende</l>
+				<l n="2" met="+--+-++--+-">dando al salado mar dulce tributo,</l>
+				<l n="3" met="--+--+-+-+-" enjamb="B-cc_crossclause" cert="high">lo acrecienta mi llanto tan sin fruto</l>
+				<l n="4" met="-+--++-+-+-" enjamb="I-cc_crossclause" cert="high">que más, mientras más lloro, amor me enciende.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+-++---+-" enjamb="B-ex_dobj_verb" cert="low">Cuanto más mi cruel ninfa me enciende</l>
+				<l n="6" met="+--+-+-+-+-" enjamb="I-ex_dobj_verb" cert="low">mira mi mal con rostro más enjuto,</l>
+				<l n="7" met="--+--+---+-" enjamb="B-ex_subj_verb" cert="low">sin que nunca mis lágrimas y luto</l>
+				<l n="8" met="-+---+--++-" enjamb="I-ex_subj_verb" cert="low">la muevan, porque finge que no entiende.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Pues de igual aspereza te lastimas</l>
+				<l n="10" met="+-+--+-+-+-">junto al Dauro que dio tu vena de oro</l>
+				<l n="11" met="--++-+-+-+-">y a los dos es la suerte tan contraria,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-" enjamb="B-pb_noun_prep" cert="mid">de grande alivio me serán tus rimas</l>
+				<l n="13" met="---+-+-+-+-" enjamb="B-cc_crossclause I-pb_noun_prep" cert="high mid">en el silencio de este sacro coro</l>
+				<l n="14" met="--+--+---+-" enjamb="I-cc_crossclause" cert="high">que acompaña la vida solitaria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

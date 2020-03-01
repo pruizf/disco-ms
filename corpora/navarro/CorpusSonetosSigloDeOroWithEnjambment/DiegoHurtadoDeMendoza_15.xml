@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">El hombre que doliente está de muerte</l>
+				<l n="2" met="--+-++---+-">y vecino a aquel trago temeroso,</l>
+				<l n="3" met="-+---+-+-+-">cualquiera beneficio le es dañoso</l>
+				<l n="4" met="--+--+---+-">y en la causa del mal se le convierte.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-" enjamb="B-ex_subj_verb" cert="low">Así mi alma triste en sólo verte</l>
+				<l n="6" met="+-+--+-+-+-" enjamb="I-ex_subj_verb" cert="low">halla daño, si busca haber reposo,</l>
+				<l n="7" met="-+--++-+-+-">viniendo del bien cierto el mal dudoso,</l>
+				<l n="8" met="-+-+-+---+-">del dulce verte, el duro conocerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-" enjamb="B-pb_noun_prep" cert="mid">La vana fantasía y confianza</l>
+				<l n="10" met="-----+-+-+-" enjamb="B-ex_dobj_verb I-pb_noun_prep" cert="low mid">en desesperación se torna luego</l>
+				<l n="11" met="-+---+---+-" enjamb="I-ex_dobj_verb" cert="low">que el seso reconoce la ocasión.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-" enjamb="B-pb_adj_noun" cert="mid">Donde vence el remedio la pasión</l>
+				<l n="13" met="-+-+++-+-+-" enjamb="I-pb_adj_noun" cert="mid">sobrado ver es luz que torna ciego,</l>
+				<l n="14" met="--+--+---+-">y confiado vivir sin esperanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

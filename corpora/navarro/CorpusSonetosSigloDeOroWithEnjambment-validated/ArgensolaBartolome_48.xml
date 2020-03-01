@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLI - A una persona que se preciaba de ser platónica </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++---+-+-" enjamb="B-ex_subj_verb" cert="low">Gala, no alegues a Platón o alega</l>
+				<l n="2" met="+-+--+---+-" enjamb="I-ex_subj_verb" cert="low">algo más corporal lo que alegares,</l>
+				<l n="3" met="+-+--+-+-+-">que esos cómplices tuyos son vulgares</l>
+				<l n="4" met="-+-+---+-+-">y escuchan mal la sutileza griega.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-" enjamb="B-pb_verb_adv" cert="mid">Desnudo al sol y al látigo navega</l>
+				<l n="6" met="++-+-+-+-+-" enjamb="B-cc_crossclause I-pb_verb_adv" cert="high mid">más de un amante tuyo en ambos mares</l>
+				<l n="7" met="--+--+---+-" enjamb="I-cc_crossclause" cert="high">que te sabe los íntimos lunares</l>
+				<l n="8" met="--++-+---+-">y quizá es tan honrado que lo niega.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Y tú, en la metafísica elevada,</l>
+				<l n="10" met="+--+-+-+-+-">dices que unir las almas es tu intento,</l>
+				<l n="11" met="+--+---+-+-">ruda y sencilla en inferiores cosas;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-" enjamb="B-ex_subj_verb" cert="low">pues yo sé que Apuleyo más te agrada</l>
+				<l n="13" met="---+-+---+-" enjamb="B-cc_crossclause I-ex_subj_verb" cert="high low">cuando rebuzna en forma de jumento</l>
+				<l n="14" met="-----+-+-+-" enjamb="I-cc_crossclause" cert="high">que en la que se quedó comiendo rosas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

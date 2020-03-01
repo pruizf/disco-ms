@@ -1,0 +1,39 @@
+# 19th
+## Hendecasyllable
+- Enclosed : Total [2287] American [1223] European [1064]
+- Alternate: Total [122] American [96] European [26]
+- Total    : Total [2409] American [1319] European [1090]
+
+## Alexandrine
+- Enclosed : Total [145] American [121] European [24]
+- Alternate: Total [122] American [98] European [24]
+- Total    : Total [267] American [219] European [48]
+
+
+
+# 18th
+## Hendecasyllable
+- Enclosed : Total [320] American [30] European [290]
+- Alternate: Total [1] American [0] European [1]
+- Total    : Total [321] American [30] European [291]
+
+## Alexandrine
+- Enclosed : Total [0] American [0] European [0]
+- Alternate: Total [0] American [0] European [0]
+- Total    : Total [0] American [0] European [0]
+
+
+
+# 15th-17th
+## Hendecasyllable
+- Enclosed : Total [1056] American [26] European [1030]
+- Alternate: Total [30] American [0] European [30]
+- Total    : Total [1086] American [26] European [1060]
+
+## Alexandrine
+- Enclosed : Total [2] American [0] European [2]
+- Alternate: Total [0] American [0] European [0]
+- Total    : Total [2] American [0] European [2]
+
+
+

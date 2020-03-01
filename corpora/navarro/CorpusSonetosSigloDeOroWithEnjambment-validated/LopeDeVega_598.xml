@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 8 - Temores en el favor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">Cuando en mis manos, Rey eterno, os miro,</l>
+				<l n="2" met="--+--+---+-">y la cándida víctima levanto,</l>
+				<l n="3" met="---+---+-+-" enjamb="B-ex_subj_verb" cert="low">de mi atrevida indignidad me espanto</l>
+				<l n="4" met="---+---+-+-" enjamb="I-ex_subj_verb" cert="low">y la piedad de vuestro pecho admiro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">Tal vez el alma con temor retiro;</l>
+				<l n="6" met="++-+---+-+-">tal vez la doy al amoroso llanto;</l>
+				<l n="7" met="---+---+-+-">que, arrepentido de ofenderos tanto,</l>
+				<l n="8" met="-+-+---+-+-">con ansias temo y con dolor suspiro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-" enjamb="B-cc_crossclause" cert="high">Volved los ojos a mirarme humanos</l>
+				<l n="10" met="---+---+-+-" enjamb="B-pb_relword I-cc_crossclause" cert="high high">que por las sendas de mi error siniestras</l>
+				<l n="11" met="---+---+-+-" enjamb="I-pb_relword" cert="high">me despeñaron pensamientos vanos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+---+-+-">No sean tantas las miserias nuestras,</l>
+				<l n="13" met="---+---+-+-" enjamb="B-pb_adj_noun" cert="mid">que a quien os tuvo en sus indignas manos</l>
+				<l n="14" met="+--+---+-+-" enjamb="I-pb_adj_noun" cert="mid">vos le dejéis de las divinas vuestras.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

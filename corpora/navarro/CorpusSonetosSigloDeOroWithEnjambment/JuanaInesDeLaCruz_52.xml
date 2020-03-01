@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVI - Que celebra a un graduado de doctor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Vista tus hombros el verdor lozano,</l>
+				<l n="2" met="+----+---+-">Joven, con que tu ciencia te laurea;</l>
+				<l n="3" met="-+-+-+-+-+-">y puesto en ello dignamente, sea</l>
+				<l n="4" met="+----+---+-">índice de tus méritos ufano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-" enjamb="B-ex_subj_verb" cert="low">Corone tu discurso soberano</l>
+				<l n="6" met="--+--+---+-" enjamb="B-pb_adj_noun I-ex_subj_verb" cert="mid low">la que blanda tus sientes lisonjea</l>
+				<l n="7" met="-+---+---+-" enjamb="B-ex_subj_verb I-pb_adj_noun" cert="low mid">insignia literaria, en quien se emplea</l>
+				<l n="8" met="--+--+-+-+-" enjamb="I-ex_subj_verb" cert="low">el flamante sepulcro de un gusano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-" enjamb="B-ex_dobj_verb" cert="low">¡Oh qué enseñanza llevan escondida</l>
+				<l n="10" met="-+---+---+-" enjamb="I-ex_dobj_verb" cert="low">honrosos los halagos de tu suerte,</l>
+				<l n="11" met="---+---+-+-">donde despierta la atención dormida!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Pues ese verde honor, si bien se advierte,</l>
+				<l n="13" met="--++-+---+-">mientras más brinda gustos a la vida,</l>
+				<l n="14" met="+-+--+---+-">más ofrece recuerdos a la muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,21 @@
+FileName	Line	LNbr	EnjType
+Mena,_Juan_de__357g~~Soneto__0816.xml	Tajo al presente, ni a me a socorrer	11	B-ex_dobj_verb I-ex_dobj_verb
+Mena,_Juan_de__357g~~Soneto__0816.xml	la enferma Guadiana, ni la creo.	12	I-ex_dobj_verb
+Gómez_Tejada_de_los_Reyes,_Cosme__004g~~Sonetos_burlescos_al_suspiro_de_Crisaura__0012__-_I_-__01.xml	un suspiro de amor con aura afable	11	B-ex_subj_verb
+Gómez_Tejada_de_los_Reyes,_Cosme__004g~~Sonetos_burlescos_al_suspiro_de_Crisaura__0012__-_I_-__01.xml	suspende las esferas y el profundo,	12	I-ex_subj_verb
+Cueva_y_Silva,_Leonor_de_la__273g~~Soneto_a_la_muerte_de_doña_Isabel_de_Borbón__0564.xml	la Lis francesa, la beldad galante	11	B-ex_subj_verb
+Cueva_y_Silva,_Leonor_de_la__273g~~Soneto_a_la_muerte_de_doña_Isabel_de_Borbón__0564.xml	quitó, llevó la muerte robadora.	12	I-ex_subj_verb
+Salinas_y_Lizana,_Manuel__113g~~Sonetos_encontrados_en_el_libro_de_Baltasar_Graciá__0220.xml	¿por qué suspiras siempre? ¡Oh Tucca! ¿quién	11	B-ex_subj_verb
+Salinas_y_Lizana,_Manuel__113g~~Sonetos_encontrados_en_el_libro_de_Baltasar_Graciá__0220.xml	tu pecho abrasa en llama juvenil?	12	I-ex_subj_verb
+Jiménez_Cerdán,_Beatriz__407g~~Soneto_a_la_muerte_de_Isabel_de_Borbón__0900.xml	que anocheció la más lucida estrella	8	B-cc_crossclause
+Jiménez_Cerdán,_Beatriz__407g~~Soneto_a_la_muerte_de_Isabel_de_Borbón__0900.xml	que atenta celebra las memorias	9	B-pb_noun_prep I-cc_crossclause
+Galtero,_Pedro_Jerónimo__222g~~A_la_muerte_del_doctor_Juan_Pérez_Montalbán__0467.xml	de su aliento vital restó, devoto	11	B-pb_noun_prep I-pb_noun_prep
+Galtero,_Pedro_Jerónimo__222g~~A_la_muerte_del_doctor_Juan_Pérez_Montalbán__0467.xml	y culto dedo de pastor imprima	12	B-ex_dobj_verb I-pb_noun_prep
+Cueva_y_Silva,_Leonor_de_la__273g~~Soneto__0558.xml	a quien vence la hermosa jardinera	11	B-cc_crossclause
+Cueva_y_Silva,_Leonor_de_la__273g~~Soneto__0558.xml	que por la vista alegra y enamora,	12	I-cc_crossclause
+Vega,_Tomás_de_la__129g~~Soneto__0257.xml	Esther graciosa, que por ella inclina	11	B-ex_subj_verb
+Vega,_Tomás_de_la__129g~~Soneto__0257.xml	el Padre al Verbo de su Solio trino:	12	I-ex_subj_verb
+Sor_María_de_Santa_Isabel__435g~~Soneto__0941.xml	de una ausencia, si ya no sol ni ave	11	B-pb_adj_noun I-pb_noun_prep
+Sor_María_de_Santa_Isabel__435g~~Soneto__0941.xml	racional, la belleza milagrosa	12	B-pb_adj_noun I-pb_adj_noun
+León,_Cristóbal_de__300g~~Soneto__0625.xml	oblíguense también a Castellanos	11	B-ex_dobj_verb
+León,_Cristóbal_de__300g~~Soneto__0625.xml	los varones en Indias más altivos.	12	I-ex_dobj_verb

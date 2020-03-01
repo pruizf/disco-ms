@@ -1,0 +1,43 @@
+FileName	Line	LNbr	EnjType
+LopezDeMendoza_25.xml	¿sentides, por ventura, los clamores	11	B-cc_crossclause
+LopezDeMendoza_25.xml	que de Bisançio por letras oístes?	12	I-cc_crossclause
+PedroDePadilla_38.xml	nunca lo tuvo ni tendrá la vida	8	B-pb_noun_prep I-ex_subj_verb
+PedroDePadilla_38.xml	del sentido, la vida de la muerte,	9	I-pb_noun_prep
+FernandoDeHerrera_60.xml	de paciencia y valor, en el postrero	4	B-pb_adj_noun I-pb_adj_prep
+FernandoDeHerrera_60.xml	trance, arrojando el yugo, desespero,	5	I-pb_adj_noun
+LopezDeMendoza_19.xml	que los leales; e si tal, sacadme	11	B-pb_verb_cprep
+LopezDeMendoza_19.xml	de tan grand pena e sentid mi mal.	12	I-pb_verb_cprep
+Quevedo_479.xml	y sólo alcanzarás puesto y oficio	11	B-pb_noun_prep
+Quevedo_479.xml	de quien su iniquidad te manifiesta;	12	I-pb_noun_prep
+LopezDeMendoza_17.xml	cuantas padezco desde la jornada	11	B-cc_crossclause
+LopezDeMendoza_17.xml	que me feriste de golpe mortal.	12	I-cc_crossclause
+JuanBoscan_40.xml	Cuán poco es lo que puedes, pues no muero	11	B-pb_verb_cprep
+JuanBoscan_40.xml	de sólo imaginar mi triste suerte	12	B-pb_adj_noun I-pb_verb_cprep
+JuanBoscan_62.xml	continuo escogen el que más desnudo	11	B-pb_adj_prep I-pb_adj_noun
+JuanBoscan_62.xml	de Amor y lealtad; y así parece	12	I-pb_adj_prep
+Gongora_42.xml	cual ya por escuchar el dulce canto	11	B-pb_noun_prep
+Gongora_42.xml	de aquel que, de Strimón en la espesura,	12	I-pb_noun_prep
+JuanBoscan_3.xml	y más me espanta verme en tal estado	11	B-pb_noun_prep
+JuanBoscan_3.xml	de no poder quitar el pensamiento	12	B-pb_noun_prep I-pb_noun_prep
+Gongora_104.xml	a cuántos dora el sol, a cuántos baña	11	B-pb_relword
+Gongora_104.xml	términos del Océano la espuma,	12	I-pb_relword
+ArgensolaLupercio_43.xml	Báñela aquella luz, Señor, aquella	11	B-cc_crossclause
+ArgensolaLupercio_43.xml	 que inspira perfecciones a la vida;	12	I-cc_crossclause
+LopezDeMendoza_34.xml	nin el animo mío esta suspenso	4	B-pb_noun_prep
+LopezDeMendoza_34.xml	de sus combates, con tanta porfía	5	B-cc_crossclause I-pb_noun_prep
+JuanaInesDeLaCruz_11.xml	quisiera gobernar con atrevida	11	B-pb_adj_noun I-ex_subj_verb
+JuanaInesDeLaCruz_11.xml	mano, el rápido carro en luz bañado	12	B-ex_subj_verb I-pb_adj_noun
+FernandoDeHerrera_298.xml	desierto yace. ¡Oh cuánto en ti la dura	11	B-pb_adj_noun
+FernandoDeHerrera_298.xml	suerte discorde se mostró y ajena!	12	I-pb_adj_noun
+JuanDeTassisYPeralta_187.xml	poca son hoy ceniza y mucha hierba	4	B-cc_crossclause
+JuanDeTassisYPeralta_187.xml	que al poderoso culto nos reserva	5	B-ex_dobj_verb I-cc_crossclause
+JuanaInesDeLaCruz_3.xml	y sólo quiero ser correspondida	11	B-pb_noun_prep
+JuanaInesDeLaCruz_3.xml	de aquel que de mi amor réditos cobra;	12	I-pb_noun_prep
+JuanaInesDeLaCruz_53.xml	pudiera, del discurso con los graves	11	B-pb_adj_noun
+JuanaInesDeLaCruz_53.xml	reflejos, conocer si lo intentaras:	12	I-pb_adj_noun
+ArgensolaBartolome_60.xml	del rayo celestial verás volvella	11	B-pb_adj_prep I-pb_noun_prep
+ArgensolaBartolome_60.xml	a verte, como en vidrio cristalino	12	I-pb_adj_prep
+JuanDeArguijo_64.xml	por la voz dulce y cortesano aviso	11	B-pb_noun_prep
+JuanDeArguijo_64.xml	del culto Lope, que en su nueva historia	12	B-ex_subj_verb I-pb_noun_prep
+JuanaInesDeLaCruz_72.xml	que aunque dejas burlado el lazo estrecho	11	B-cc_crossclause
+JuanaInesDeLaCruz_72.xml	que tu forma fantástica ceñía,	12	I-cc_crossclause

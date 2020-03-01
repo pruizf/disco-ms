@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>María Ángeles Herrero Herrero</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXCI - A San Francisco Xavier </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-" enjamb="B-pb_noun_prep" cert="mid">Ve, ¡oh gran Francisco!, y vibra el gran tridente</l>
+				<l n="2" met="-+-+---+-+-" enjamb="I-pb_noun_prep" cert="mid">de sacra diosa con la sacra mano,</l>
+				<l n="3" met="---+-+-+-+-" enjamb="B-ex_subj_verb" cert="low">que por virtud, si no por años, cano</l>
+				<l n="4" met="-+-+-+---+-" enjamb="I-ex_subj_verb" cert="low">darás a España gloria floreciente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-" enjamb="B-pb_noun_prep" cert="mid">Desempeñe tu pecho heroicamente</l>
+				<l n="6" met="--+--+---+-" enjamb="B-pb_adj_noun I-pb_noun_prep" cert="mid mid">del talento la fe, y el soberano</l>
+				<l n="7" met="-+---+-+++-" enjamb="B-ex_dobj_verb I-pb_adj_noun" cert="low mid">obsequio que a tu nombre no da en vano</l>
+				<l n="8" met="---+-+---+-" enjamb="I-ex_dobj_verb" cert="low">el uniforme aplauso de la gente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Logra y logre por ti la blanca Astrea,</l>
+				<l n="10" met="++---+-+-+-">no sólo incorruptible el terso acero,</l>
+				<l n="11" met="--+--+---+-">sino el neutro nivel de su balanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Querrán los cielos que tu nombre sea</l>
+				<l n="13" met="--+--+---+-">al de Numas y Néstores primero,</l>
+				<l n="14" met="-+---+---+-">mi fe desempeñando y tu esperanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

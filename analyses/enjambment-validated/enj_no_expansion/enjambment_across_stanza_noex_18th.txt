@@ -1,0 +1,7 @@
+FileName	Line	LNbr	EnjType
+González,_Diego__032e~~A_la_paz_ventajosamente_concluida_por_Carlos_III__0165.xml	dones mil del tesoro inagotable	8	B-pb_noun_prep I-ex_dobj_verb
+González,_Diego__032e~~A_la_paz_ventajosamente_concluida_por_Carlos_III__0165.xml	de su amor, y por Carlos negociada,	9	I-pb_noun_prep
+Fray_Diego_González__024e~~A_la_paz__0114.xml	dones mil del tesoro inagotable	8	B-pb_noun_prep I-ex_dobj_verb
+Fray_Diego_González__024e~~A_la_paz__0114.xml	de su amor; y por Carlos negociada,	9	I-pb_noun_prep
+Verdugo_Castilla,_Alfonso__052e~~Soneto_satírico__0308.xml	en luz, robada no, sino influida	11	B-pb_adj_prep
+Verdugo_Castilla,_Alfonso__052e~~Soneto_satírico__0308.xml	de numen tal, que a su eficacia pura	12	I-pb_adj_prep

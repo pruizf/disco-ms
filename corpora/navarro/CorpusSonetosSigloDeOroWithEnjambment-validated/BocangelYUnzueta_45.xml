@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>María Ángeles Herrero Herrero</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- V - Hablando con su dama ya difunta </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-" enjamb="B-pb_adj_noun" cert="mid">Cobrote el cielo en tu primer mañana</l>
+				<l n="2" met="-+-+++---+-" enjamb="I-pb_adj_noun" cert="mid">humana flor, no muerta, interrumpida,</l>
+				<l n="3" met="-+---+-+-+-" enjamb="B-ex_subj_verb" cert="low">en fe de que viviste aquí ofendida</l>
+				<l n="4" met="+-+-++-+-+-" enjamb="I-ex_subj_verb" cert="low">ese instante no más que fuiste humana.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-" enjamb="B-pb_adj_prep" cert="low">¡Qué temprano quedó tu nieve, o grana</l>
+				<l n="6" met="--+--+---+-" enjamb="I-pb_adj_prep" cert="low">de las iras del viento sacudida!</l>
+				<l n="7" met="++---+---+-" enjamb="B-ex_dobj_verb" cert="low">¡Qué tarde a mi esperanza con tu vida</l>
+				<l n="8" met="+--+---+-+-" enjamb="I-ex_dobj_verb" cert="low">has enseñado a escarmentar de vana!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-" enjamb="B-ex_dobj_verb" cert="low">Si es que a la patria de la luz que pisas</l>
+				<l n="10" met="+--+-+-+-+-" enjamb="B-ex_dobj_verb I-ex_dobj_verb" cert="low low">ruego mortal de amante voz alcanza</l>
+				<l n="11" met="++---+--++-" enjamb="I-ex_dobj_verb" cert="low">es mérito de amar lo que no veo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-" enjamb="B-ex_subj_verb" cert="low">Si es que tu arbitrio en tu poder avisas</l>
+				<l n="13" met="-+---+---+-" enjamb="I-ex_subj_verb" cert="low">pues sabe que moriste mi esperanza,</l>
+				<l n="14" met="+-+--+---+-">haz que sepas que falte mi deseo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

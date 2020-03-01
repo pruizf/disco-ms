@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> - XX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+++---+-">Nunca me vi tan solo ni apartado,</l>
+				<l n="2" met="---+-++--+-" enjamb="B-cc_crossclause" cert="high">que lo pudiese estar de un pensamiento</l>
+				<l n="3" met="---+---+-+-" enjamb="B-pb_noun_prep I-cc_crossclause" cert="mid high">que me renueva el doloroso cuento</l>
+				<l n="4" met="--+--+---+-" enjamb="I-pb_noun_prep" cert="mid">de mi estado presente y del pasado;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+---+-">do Amor, por verme siempre lastimado</l>
+				<l n="6" met="---+-----+-">con apariencias de contentamiento,</l>
+				<l n="7" met="-+---+-+-+-" enjamb="B-ex_dobj_verb" cert="low">modera su rigor, y luego siento</l>
+				<l n="8" met="---+---+-+-" enjamb="I-ex_dobj_verb" cert="low">con esperanza mi dolor mezclado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Entran luego los dos en su porfía,</l>
+				<l n="10" met="--+--++--+-">donde en fin el temor vence la prueba</l>
+				<l n="11" met="-+---+-+-+-">y pierde la esperanza mal fundada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+++-+-+-"> En esto estoy mil veces cada día,</l>
+				<l n="13" met="-+-+-+---+-" enjamb="B-ex_dobj_verb" cert="low">y siempre el mismo caso me renueva</l>
+				<l n="14" met="+--+---+-+-" enjamb="I-ex_dobj_verb" cert="low">tristes congojas y, pasión doblada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

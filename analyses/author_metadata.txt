@@ -1,0 +1,21 @@
+# 15th-17th
+- Sonnets: 1088
+- Authors: 477
+- Female: 31
+- Male: 446
+- America: 13
+- Europe: 464
+# 18th
+- Sonnets: 321
+- Authors: 42
+- Female: 1
+- Male: 41
+- America: 6
+- Europe: 36
+# 19th
+- Sonnets: 2676
+- Authors: 685
+- Female: 48
+- Male: 637
+- America: 334
+- Europe: 351

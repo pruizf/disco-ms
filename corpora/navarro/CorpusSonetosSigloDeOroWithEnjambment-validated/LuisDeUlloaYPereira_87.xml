@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXI - Al desvío de Filis, que se disculpa con una queja incierta </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Si te retiras, Filis, por hallarme</l>
+				<l n="2" met="-+---+-+-+-">de achaques de fortuna tan doliente,</l>
+				<l n="3" met="-+---+-+-+-" enjamb="B-pb_adj_noun" cert="mid">el menos venenoso no consiente</l>
+				<l n="4" met="-+---+---+-" enjamb="I-pb_adj_noun" cert="mid">impulso de piedad para tratarme.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+---+-" enjamb="B-pb_adj_noun" cert="mid">Y de que su contagio con desarme</l>
+				<l n="6" met="-+---+-+-+-" enjamb="I-pb_adj_noun" cert="mid">excusas el peligro cuerdamente</l>
+				<l n="7" met="--+--+---+-" enjamb="B-ex_dobj_verb" cert="low">y descuida de hacerme delincuente</l>
+				<l n="8" met="--+--+---+-" enjamb="I-ex_dobj_verb" cert="low">si te vasto infeliz para olvidarme.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-" enjamb="B-pb_noun_prep" cert="mid">No te detenga de esto la bajeza</l>
+				<l n="10" met="---+---+-+-" enjamb="I-pb_noun_prep" cert="mid">de la calumnia que inocente ignoro,</l>
+				<l n="11" met="---+---+-+-">las novedades que mi olvido trata.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Remite la razón a mi fineza,</l>
+				<l n="13" met="--+--+---+-" enjamb="B-ex_subj_verb" cert="low">que arriesgándose así por su decoro</l>
+				<l n="14" met="--+--+-+-+-" enjamb="I-ex_subj_verb" cert="low">se sabrá disculpar de ser ingrata.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

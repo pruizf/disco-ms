@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXVI - De los que censuraron su Polifemo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-" enjamb="B-pb_adj_noun" cert="mid">Pisó las calles de Madrid el fiero</l>
+				<l n="2" met="-+---+---+-" enjamb="I-pb_adj_noun" cert="mid">monóculo galán de Galatea,</l>
+				<l n="3" met="--+--++--+-" enjamb="B-pb_adj_noun" cert="mid">y cual suele tejer bárbara aldea</l>
+				<l n="4" met="+--+-----+-" enjamb="I-pb_adj_noun" cert="mid">soga de gozques contra forastero,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--++--+-">rígido un bachiller, otro severo,</l>
+				<l n="6" met="+--+-+---+-">crítica turba al fin, sino pigmea,</l>
+				<l n="7" met="-+-+---+-+-" enjamb="B-ex_dobj_verb" cert="low">su diente afila y su veneno emplea</l>
+				<l n="8" met="---+-+---+-" enjamb="I-ex_dobj_verb" cert="low">en el disforme cíclope cabrero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">A pesar del lucero de su frente</l>
+				<l n="10" met="+--+-+-+-+-" enjamb="B-cc_crossclause" cert="high">le hacen oscuro, y él en dos razones</l>
+				<l n="11" met="-++--+---+-" enjamb="I-cc_crossclause" cert="high">que en dos truenos libró de su Occidente:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-" enjamb="B-ex_dobj_verb" cert="low">«Si quieren -respondió- los pedantones</l>
+				<l n="13" met="++---+---+-" enjamb="I-ex_dobj_verb" cert="low">luz nueva en hemisferio diferente,</l>
+				<l n="14" met="+----+---+-">den su memorial a mis calzones.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

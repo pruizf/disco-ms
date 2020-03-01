@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VIII - Al comendador de La Magdalena </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-" enjamb="B-pb_adj_prep" cert="low">Quietud con más sosiego y más reposo</l>
+				<l n="2" met="---+-+---+-" enjamb="I-pb_adj_prep" cert="low">a vuestra edad Señor le convenía;</l>
+				<l n="3" met="-+-+-++--+-">que en esta baja tierra húmeda y fría</l>
+				<l n="4" met="-+-+-+---+-">andar siguiendo al de Alba belicoso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----++--+-" enjamb="B-pb_adj_noun" cert="mid">Mas vuestro corazón que es valeroso</l>
+				<l n="6" met="-+-+-++--+-" enjamb="B-ex_dobj_verb I-pb_adj_noun" cert="low mid">reposo en tiempo tal no concedía</l>
+				<l n="7" met="-+---+---+-" enjamb="B-ex_subj_verb I-ex_dobj_verb" cert="low low">al cuerpo que de esfuerzo y valentía</l>
+				<l n="8" met="-+-+-++--+-" enjamb="I-ex_subj_verb" cert="low">nació dotado, y fue, y es animoso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-" enjamb="B-ex_subj_verb" cert="low">Así que la virtud que en esta parte</l>
+				<l n="10" met="+----+---+-" enjamb="I-ex_subj_verb" cert="low">es a naturaleza repugnante</l>
+				<l n="11" met="+--+-+-+-+-">hace que Marte os sea muy propicio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Y en los trabajos siendo bien constante</l>
+				<l n="13" met="---+-+-+-+-">con singular prudencia ingenio y arte</l>
+				<l n="14" met="-+---+---+-">milicia administráis vuestro ejercicio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

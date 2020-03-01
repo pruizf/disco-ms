@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Mira de Amescua</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VII - De El Fénix de Salamanca. Acto segundo, Alejandra </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-" enjamb="B-pb_noun_prep" cert="mid">¡Qué de espinas, amor, entre las flores</l>
+				<l n="2" met="---+-+---+-" enjamb="I-pb_noun_prep" cert="mid">de tus deleites tienes escondidas,</l>
+				<l n="3" met="-+-+-+---+-">y qué de días y horas desabridas</l>
+				<l n="4" met="--+--+---+-">en el breve placer de tus favores!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-" enjamb="B-pb_noun_prep" cert="mid">¡Qué de pesares siembras entre amores</l>
+				<l n="6" met="-+---+---+-" enjamb="I-pb_noun_prep" cert="mid">de glorias y esperanzas prometidas,</l>
+				<l n="7" met="-+---+---+-" enjamb="B-cc_crossclause" cert="high">y qué de sobresaltos en las vidas</l>
+				<l n="8" met="---+-+---+-" enjamb="I-cc_crossclause" cert="high">que asegurar pudieron sus temores!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++-++--+-" enjamb="B-ex_subj_verb" cert="low">Si eres tan falso, Amor, ¡qué divertidos</l>
+				<l n="10" met="--+--+++-+-" enjamb="B-ex_subj_verb I-ex_subj_verb" cert="low low">nos llegamos a ti! ¿Qué dulce engaño</l>
+				<l n="11" met="++---+-+-+-" enjamb="I-ex_subj_verb" cert="low">es ése con que, Amor, nos trae prendidos?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Mas, ¡ay de mí!, que, conociendo el daño,</l>
+				<l n="13" met="-+-+-+---+-">juzgamos tanto cuerdos los sentidos,</l>
+				<l n="14" met="--+--+---+-">que tenemos por loco el desengaño.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

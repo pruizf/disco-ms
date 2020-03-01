@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Franciscode Aldana</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-----+-+-+-" enjamb="B-pb_noun_prep" cert="mid">¡Ay!, que considerar el bajo punto</l>
+				<l n="2" met="--+--+-+-+-" enjamb="I-pb_noun_prep" cert="mid">del estado mortal al alma hiere,</l>
+				<l n="3" met="--++-+---+-" enjamb="B-ex_dobj_verb" cert="low">mas del tal peso alienta y la requiere</l>
+				<l n="4" met="+----+---+-" enjamb="I-ex_dobj_verb" cert="low">alta contemplación de su trasunto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-" enjamb="B-ex_subj_verb" cert="low">Pero, con esto, el Gran Rector conjunto</l>
+				<l n="6" met="-+-+---+-+-" enjamb="I-ex_subj_verb" cert="low">aquel tributo contrapuesto infiere</l>
+				<l n="7" met="++-+-+-+-+-" enjamb="B-pb_verb_adv" cert="mid">do, no con celo tanto, el bien se quiere</l>
+				<l n="8" met="+--+-+-+++-" enjamb="I-pb_verb_adv" cert="mid">cuanto a la humana parte el mal va junto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-" enjamb="B-pb_adj_noun" cert="mid">No sé si, al sostener la fatigosa</l>
+				<l n="10" met="+-+--++--+-" enjamb="I-pb_adj_noun" cert="mid">vida, fuera mejor falso juicio,</l>
+				<l n="11" met="---+-+-+-+-">con que el dolor se engaña y no se siente,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">o si sentir en todo toda cosa,</l>
+				<l n="13" met="-++--+---+-">con tal daño del alma y perjuicio,</l>
+				<l n="14" met="++-+---+-+-">es más alivio a la pasión doliente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

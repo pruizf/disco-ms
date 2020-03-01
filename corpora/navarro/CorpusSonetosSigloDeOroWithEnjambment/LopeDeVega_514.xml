@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 124 - Al libro Novelas amorosas, de Joseph Camerino, 1674 </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-" enjamb="B-pb_adj_noun" cert="mid">Con tierna edad y con prudencia cana</l>
+				<l n="2" met="-+---+---+-" enjamb="B-pb_relword I-pb_adj_noun" cert="high mid">escribes, Camerino, en diferentes</l>
+				<l n="3" met="-+---+---+-" enjamb="I-pb_relword" cert="high">estilos del Amor los accidentes,</l>
+				<l n="4" met="-+-+---+-+-">la dulce guerra y la esperanza vana.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-" enjamb="B-ex_dobj_verb" cert="low">Honrando nuestra lengua Castellana</l>
+				<l n="6" met="-+---+---+-" enjamb="I-ex_dobj_verb" cert="low">propones con sentencias eminentes,</l>
+				<l n="7" met="-+---+---+-" enjamb="B-pb_adj_prep" cert="low">ejemplos y económicas prudentes</l>
+				<l n="8" met="---+---+-+-" enjamb="I-pb_adj_prep" cert="low">para el gobierno de la vida humana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Si estimó la gentil Filosofía</l>
+				<l n="10" met="-+---+---+-">Apólogos y fábulas morales,</l>
+				<l n="11" met="+-++---+-+-">estas son dignas de tu ingenio sólo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-" enjamb="B-ex_subj_verb" cert="low">Su luz con alma oculta al bien nos guía</l>
+				<l n="13" met="+--+-+-+-+-" enjamb="I-ex_subj_verb" cert="low">ellas con líneas de oro son cristales,</l>
+				<l n="14" met="-+-+---+-+-">y tú en Parnaso Camarín de Apolo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

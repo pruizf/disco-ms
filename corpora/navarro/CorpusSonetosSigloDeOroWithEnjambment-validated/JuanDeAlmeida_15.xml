@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXII - A una dama enferma </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-" enjamb="B-ex_subj_verb" cert="low">Siendo albergue de cuanto el santo cielo</l>
+				<l n="2" met="-+-+-+---+-" enjamb="I-ex_subj_verb" cert="low">reparte en ser, valor y hermosura,</l>
+				<l n="3" met="-+---+-+-+-">vuestra ánima gentil, excelsa y pura,</l>
+				<l n="4" met="+--+---+-+-">lustre y honor de nuestro bajo suelo,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-" enjamb="B-ex_dobj_verb" cert="low">os cubre el mal con enojoso velo</l>
+				<l n="6" met="-+---++--+-" enjamb="I-ex_dobj_verb" cert="low">la clara perfección de esa figura,</l>
+				<l n="7" met="--+--+---+-" enjamb="B-ex_dobj_verb" cert="low">y adolece el primor en quien natura</l>
+				<l n="8" met="--+--+-+-+-" enjamb="I-ex_dobj_verb" cert="low">su poder levantó con sumo vuelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++-+---+-" enjamb="B-cc_crossclause" cert="high">El temor de este mal, el sentimiento</l>
+				<l n="10" met="--+--+-+-+-" enjamb="B-ex_subj_verb I-cc_crossclause" cert="low high">que se debe al dolor que injustamente</l>
+				<l n="11" met="-+-+-+---+-" enjamb="I-ex_subj_verb" cert="low">fatiga el claro rostro y la memoria,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">bien podrá disculpar mi atrevimiento,</l>
+				<l n="13" met="-+---+-+-+-">y callo lo demás que el alma siente,</l>
+				<l n="14" met="+--+---+-+-">dignos sujetos de inmortal memoria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

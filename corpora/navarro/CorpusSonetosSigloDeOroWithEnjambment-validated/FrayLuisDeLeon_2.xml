@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fray  Luis de  León</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A las exequias de la reina doña Isabel </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+-+-" enjamb="B-cc_crossclause" cert="high">Mucho a la Majestad sagrada agrada</l>
+				<l n="2" met="-+---+-+-+-" enjamb="B-cc_crossclause I-cc_crossclause" cert="high high">que entienda a quien le está el cuidado dado</l>
+				<l n="3" met="+-+--+-+-+-" enjamb="I-cc_crossclause" cert="high">que es el Reino de acá prestado estado</l>
+				<l n="4" met="-+-+---+-+-">y todo al fin de la jornada nada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-" enjamb="B-ex_dobj_verb" cert="low">La silla Real por afamada amada</l>
+				<l n="6" met="-+-+-+-+-+-" enjamb="I-ex_dobj_verb" cert="low">el más sublime y más pintado hado</l>
+				<l n="7" met="-+-+---+-+-" enjamb="B-ex_dobj_verb" cert="low">está en sepulcro encarcelado helado</l>
+				<l n="8" met="-+-+---+-+-" enjamb="I-ex_dobj_verb" cert="low">su gloria al fin por desechada echada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Si el que ver lo que acá se adquiere quiere</l>
+				<l n="10" met="-+---+-+-+-" enjamb="B-ex_subj_verb" cert="low">y cuanto la mayor ventura dura</l>
+				<l n="11" met="+--+-+-+-+-" enjamb="I-ex_subj_verb" cert="low">mire que a Reina tal sotierra tierra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---++--+-+-" enjamb="B-ex_subj_verb" cert="low">Y si el que hoy ojos tuviere viere</l>
+				<l n="13" met="-+-+---+-+-" enjamb="I-ex_subj_verb" cert="low">pondrá o mundo en su locura cura</l>
+				<l n="14" met="--+--+-+-+-">que el que fía de bien de tierra yerra.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

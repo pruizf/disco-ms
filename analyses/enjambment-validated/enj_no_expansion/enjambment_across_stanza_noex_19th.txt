@@ -1,0 +1,201 @@
+FileName	Line	LNbr	EnjType
+Espronceda,_José_de__280n~~Dido_y_Eneas__0921.xml	poniendo a algunos de ellos dura brida	11	B-cc_crossclause
+Espronceda,_José_de__280n~~Dido_y_Eneas__0921.xml	que le haga mascar barro, escupir soda,	12	I-cc_crossclause
+Sierra,_Justo__514n~~Funeral_bucólico__1931__II__02.xml	de las pastoras rompe en delirante	11	B-pb_adj_noun I-pb_noun_prep
+Sierra,_Justo__514n~~Funeral_bucólico__1931__II__02.xml	grito de amor que llena el aire en ceso.	12	I-pb_adj_noun
+Alba,_Armando_J.__627n~~La_poesía__2308.xml	canto el grandioso e inmortal poema	11	B-cc_crossclause I-ex_subj_verb
+Alba,_Armando_J.__627n~~La_poesía__2308.xml	que dio vida y belleza al Universo.	12	I-cc_crossclause
+Querolt,_Vicente_Wenceslao__263n~~La_fiesta_de_Venus__0853__I__01.xml	cuyos abrazos lánguidos y besos	4	B-pb_adj_noun
+Querolt,_Vicente_Wenceslao__263n~~La_fiesta_de_Venus__0853__I__01.xml	dulces y prolongados, adormecen	5	B-ex_subj_verb I-pb_adj_noun
+Althaus,_Clemente__373n~~A_un_cóndor_enjaulado__1398.xml	Mas yo pronto a las playas adoradas	11	B-pb_noun_prep
+Althaus,_Clemente__373n~~A_un_cóndor_enjaulado__1398.xml	de mi dulce Perú tornar espero,	12	I-pb_noun_prep
+Ugarte_y_Pages,_Francisco_Javier__342n~~El_Padre_Eterno__1145.xml	y yo bendeciré la excelsa mano	11	B-cc_crossclause
+Ugarte_y_Pages,_Francisco_Javier__342n~~El_Padre_Eterno__1145.xml	que dirija mi paso vacilante:	12	I-cc_crossclause
+Ugarte_y_Pages,_Francisco_Javier__342n~~La_sementera__1172.xml	¡Odio, muerte, exterminio!: las semillas	11	B-cc_crossclause I-pb_noun_prep
+Ugarte_y_Pages,_Francisco_Javier__342n~~La_sementera__1172.xml	que a los surcos del crimen llevó el viento...	12	I-cc_crossclause
+Valdés,_Gabriel_de_la_Concepción_(Plácido)__345n~~Despedida_a_mi_madre__1202.xml	Inocente, espontáneo, como el llanto	11	B-cc_crossclause
+Valdés,_Gabriel_de_la_Concepción_(Plácido)__345n~~Despedida_a_mi_madre__1202.xml	que vertiera al nacer... ya el cuello inclino,	12	I-cc_crossclause
+Heredia,_José_María__457n~~Desconfianza__1743.xml	Perdóname si tengo desconfianza	11	B-pb_noun_prep
+Heredia,_José_María__457n~~Desconfianza__1743.xml	de que duren tu amor y tu terneza:	12	I-pb_noun_prep
+Arnao,_Nicolás__256n~~A_puro_lomos__0820.xml	por vuestro amor prefiero el sacrificio	11	B-pb_noun_prep
+Arnao,_Nicolás__256n~~A_puro_lomos__0820.xml	de cargar mi cosecha a puros lomos,	12	I-pb_noun_prep
+Maristany,_Fernando__629n~~John_Keats__2325.xml	se me nubla de pronto la magia encantadora	11	B-pb_noun_prep
+Maristany,_Fernando__629n~~John_Keats__2325.xml	del impulsivo amor. Y a solas, y a la orilla	12	B-pb_noun_prep I-pb_noun_prep
+Sanchís_Sivera,_José__266n~~Soneto__0856.xml	sólo lo sabe Dios, y en su camino	11	B-pb_noun_prep I-cc_crossclause
+Sanchís_Sivera,_José__266n~~Soneto__0856.xml	de llantos y desgracias desde el cielo,	12	I-pb_noun_prep
+Sierra,_Justo__514n~~Florencia__1929.xml	sabré sentir tu luz, que retenida	11	B-pb_adj_prep
+Sierra,_Justo__514n~~Florencia__1929.xml	por el mármol de Angelo, reparte	12	B-ex_dobj_verb I-pb_adj_prep
+Alarcón,_Pedro_Antonio_de__404n~~En_el_muladar__1539.xml	y la sola esperanza, el solo amigo	11	B-pb_noun_prep
+Alarcón,_Pedro_Antonio_de__404n~~En_el_muladar__1539.xml	del que llora, padece y necesita...	12	I-pb_noun_prep
+Lasso_de_la_Vega_Fiscowich,_Ángel__616n~~El_amor_tardío__2280.xml	por todos los medios de atraerme trata	4	B-pb_verb_cprep
+Lasso_de_la_Vega_Fiscowich,_Ángel__616n~~El_amor_tardío__2280.xml	a las redes de Cipris tan temibles.	5	I-pb_verb_cprep
+Agustini,_Delmira__321n~~El_vampiro__1056.xml	por la cruel daga rara y exquisita	11	B-pb_adj_prep
+Agustini,_Delmira__321n~~El_vampiro__1056.xml	de un mal sin nombre, ¡hasta sangrarlo en llanto!	12	I-pb_adj_prep
+Jiménez_Lamar,_Gabriel__462n~~Separación__1765.xml	Callamos. Nos asaltan los instantes supremos	11	B-pb_noun_prep
+Jiménez_Lamar,_Gabriel__462n~~Separación__1765.xml	de mi pronta partida para tierras lejanas.	12	I-pb_noun_prep
+Ugarte_y_Pages,_Francisco_Javier__342n~~La_mano_de_Dios__1185.xml	¡Náufrago soy, rendido a la fiereza	11	B-pb_noun_prep
+Ugarte_y_Pages,_Francisco_Javier__342n~~La_mano_de_Dios__1185.xml	del encrespado, indómito Océano,	12	I-pb_noun_prep
+Agustini,_Delmira__321n~~Toque_de_oración__1064.xml	la esquila del pequeño campanario	11	B-cc_crossclause I-ex_dobj_verb
+Agustini,_Delmira__321n~~Toque_de_oración__1064.xml	que se queja con un sollozo tierno,	12	I-cc_crossclause
+Tapia_y_Rivera,_Alejandro__532n~~Al_digno_y_sabio_intendente_don_Alejandro_Ramírez__1975.xml	y ordenó que a cambiar la era precaria	11	B-pb_verb_cprep
+Tapia_y_Rivera,_Alejandro__532n~~Al_digno_y_sabio_intendente_don_Alejandro_Ramírez__1975.xml	en rico bienestar, fuese Ramiro...	12	B-ex_dobj_verb I-pb_verb_cprep
+Herrera_y_Reissig,_Julio__363n~~El_despertar__1317.xml	El esquilón repite siempre su misma nota	11	B-pb_noun_prep
+Herrera_y_Reissig,_Julio__363n~~El_despertar__1317.xml	de grillo de las cándidas églodas matutinas.	12	I-pb_noun_prep
+Sarthou_Carreres,_Vicente__679n~~Mi_amor_aviva,_Jesús__2442.xml	de mi ser a tu Ser pueda inclinarte	4	B-pb_noun_prep I-pb_noun_prep
+Sarthou_Carreres,_Vicente__679n~~Mi_amor_aviva,_Jesús__2442.xml	a que enciendas en mí para loarte	5	B-ex_dobj_verb I-pb_noun_prep
+Palau_y_Català,_Melchor__314n~~Sonetos__1023__IV__04.xml	a hurto disparando esos flechazos	11	B-cc_crossclause
+Palau_y_Català,_Melchor__314n~~Sonetos__1023__IV__04.xml	que abren hondas heridas de cariño.	12	I-cc_crossclause
+Plaza,_Antonio__624n~~El_borracho__2305.xml	es intrépido, franco y excelente	11	B-pb_adj_noun
+Plaza,_Antonio__624n~~El_borracho__2305.xml	amigo; pero juzgo sin empacho	12	B-cc_crossclause I-pb_adj_noun
+Díaz_Romero,_Eugenio__473n~~La_reja__1808.xml	ocultarte al llegar bajo la vieja	8	B-pb_adj_noun I-pb_verb_chain
+Díaz_Romero,_Eugenio__473n~~La_reja__1808.xml	encina en que mis sueños se albergaron.	9	I-pb_adj_noun
+Díaz_Romero,_Eugenio__473n~~La_reja__1808.xml	adivinando casi el movimiento	11	B-pb_noun_prep I-pb_verb_chain
+Díaz_Romero,_Eugenio__473n~~La_reja__1808.xml	de tu imagen esbelta y vencedora.	12	I-pb_noun_prep
+Trenor,_Leopoldo__542n~~Primaveral__2008__La_voz_del_monje__06.xml	resuelto contemplé, porque el humano	11	B-pb_adj_noun I-pb_adj_noun
+Trenor,_Leopoldo__542n~~Primaveral__2008__La_voz_del_monje__06.xml	entendimiento olvida en su impotencia	12	B-cc_crossclause I-pb_adj_noun
+Rodríguez_Díaz,_Carlos__414n~~La_Puerta_del_Sol__1643.xml	un horizonte ñoño y baladí	11	B-cc_crossclause
+Rodríguez_Díaz,_Carlos__414n~~La_Puerta_del_Sol__1643.xml	que jamás se ha teñido de arrebol;	12	I-cc_crossclause
+Hine,_Luis__604n~~Salomé__2258.xml	y ordenó le llevaran la cabeza cortada	11	B-pb_noun_prep I-ex_subj_verb
+Hine,_Luis__604n~~Salomé__2258.xml	del Profeta importuno que turbó su alegría.	12	I-pb_noun_prep
+Alas,_Leopoldo_«Clarín»__522n~~Soneto__1945.xml	débil barquilla en forma de canasta	11	B-pb_adj_noun
+Alas,_Leopoldo_«Clarín»__522n~~Soneto__1945.xml	adornada con lindas banderolas,	12	I-pb_adj_noun
+Bermúdez,_Anacleto__012n~~El_paseo_por_el_Tínima__0034.xml	una ninfa salió, que blandamente	11	B-pb_verb_adv
+Bermúdez,_Anacleto__012n~~El_paseo_por_el_Tínima__0034.xml	enjugar quiso mi angustiado lloro:	12	I-pb_verb_adv
+Agustini,_Delmira__321n~~Lo_inefable__1053.xml	¿No habéis sentido nunca el extraño dolor	4	B-pb_noun_prep
+Agustini,_Delmira__321n~~Lo_inefable__1053.xml	de un pensamiento inmenso que se arraiga en la vida,	5	I-pb_noun_prep
+Herrera_y_Reissig,_Julio__363n~~Panteísmo__1307.xml	de nuestro ser... Un inaudito halago	11	B-pb_noun_prep I-pb_noun_prep
+Herrera_y_Reissig,_Julio__363n~~Panteísmo__1307.xml	de consubstanciación y aéreo giro	12	I-pb_noun_prep
+Querolt,_Vicente_Wenceslao__263n~~La_fiesta_de_Venus__0853__IV__04.xml	los vívidos cambiantes y el incierto	8	B-pb_adj_noun I-pb_relword
+Querolt,_Vicente_Wenceslao__263n~~La_fiesta_de_Venus__0853__IV__04.xml	vaivén de sus llanuras solitarias,	9	I-pb_adj_noun
+Riba_Palacio,_Vicente__121n~~Al_viento__0373.xml	pero hanme dicho ya mis desventuras	11	B-cc_crossclause
+Riba_Palacio,_Vicente__121n~~Al_viento__0373.xml	que eres viento, no más, cuando te quejas,	12	I-cc_crossclause
+Zaldumbide_Gangotena,_Julio__605n~~En_tempestad_sin_tregua_de_bonanza__2261.xml	¡Ay! Si has de ser de piedra a la agonía	11	B-pb_noun_prep
+Zaldumbide_Gangotena,_Julio__605n~~En_tempestad_sin_tregua_de_bonanza__2261.xml	del pobre corazón que te ama tanto,	12	I-pb_noun_prep
+Palau_y_Català,_Melchor__314n~~Sonetos__1023__III__03.xml	sólo mostraste con delirio insano	11	B-cc_crossclause
+Palau_y_Català,_Melchor__314n~~Sonetos__1023__III__03.xml	que no pudo en tu pecho hallar abrigo	12	I-cc_crossclause
+Zorrilla,_José__149n~~Roma_y_Cristo__0434__V__05.xml	de olímpico esplendor, volvió indolente	11	B-pb_adj_prep I-pb_noun_prep
+Zorrilla,_José__149n~~Roma_y_Cristo__0434__V__05.xml	a alojar en palacios sus legiones	12	I-pb_adj_prep
+Urbach,_Carlos_Póo__031n~~Budoir__0082.xml	y voluptuoso olor de resinosas	8	B-pb_adj_noun I-pb_noun_prep
+Urbach,_Carlos_Póo__031n~~Budoir__0082.xml	maderas esculpidas. Grave escudo	9	B-pb_adj_noun I-pb_adj_noun
+Urbach,_Carlos_Póo__031n~~Budoir__0082.xml	ahoga las pisadas. En la incierta	11	B-pb_adj_noun I-pb_adj_noun
+Urbach,_Carlos_Póo__031n~~Budoir__0082.xml	penumbra de la tarde, yace mudo	12	B-ex_subj_verb I-pb_adj_noun
+Valle,_Margarita_del__590n~~Exvotos...__2195.xml	y se arrastra, como una Mesalina	11	B-cc_crossclause I-cc_crossclause
+Valle,_Margarita_del__590n~~Exvotos...__2195.xml	que desciende a la paz de la cabaña,	12	I-cc_crossclause
+Lles,_Francisco__090n~~Soy__0306.xml	brusca de mis ideales, germinó la apoteosis	8	B-pb_noun_prep I-pb_adj_noun
+Lles,_Francisco__090n~~Soy__0306.xml	del desencantamiento que dio a mi mal protervo,	9	I-pb_noun_prep
+Garaycochea,_Miguel_W.__387n~~Sonetos__1481__II__02.xml	alumbra nuestra dicha, nos inflama	11	B-pb_verb_cprep
+Garaycochea,_Miguel_W.__387n~~Sonetos__1481__II__02.xml	del entusiasmo patrio que en él arde,	12	I-pb_verb_cprep
+Sanchís_Sivera,_José__266n~~A_la_memoria_de_don_Pedro_Calderón_de_la_Barca__0857.xml	contempla airoso el regio monumento	11	B-cc_crossclause
+Sanchís_Sivera,_José__266n~~A_la_memoria_de_don_Pedro_Calderón_de_la_Barca__0857.xml	que el mundo sin cesar a ti levanta	12	B-pb_verb_chain I-cc_crossclause
+Bermúdez_y_Ortega,_Federico__157n~~Símbolo__0481.xml	la luna, y al verter sus argentadas	11	B-pb_adj_noun I-ex_subj_verb
+Bermúdez_y_Ortega,_Federico__157n~~Símbolo__0481.xml	claridades silentes en las ruinas,	12	I-pb_adj_noun
+Pichardo_y_Peralta,_Manuel_Serafín__227n~~Soy_cubano__0734.xml	una divina Caridad del Cobre	11	B-cc_crossclause
+Pichardo_y_Peralta,_Manuel_Serafín__227n~~Soy_cubano__0734.xml	que me resguarda del dolor y murria;	12	I-cc_crossclause
+Carrasquilla_Mallarino,_Eduardo__470n~~Rumbos_supremos__1782.xml	sigue alumbrando en la negrura los	11	B-pb_relword
+Carrasquilla_Mallarino,_Eduardo__470n~~Rumbos_supremos__1782.xml	rumbos supremos... Y la altiva mente	12	B-ex_subj_verb I-pb_relword
+Cuervo,_Guillermo__189n~~Junio__0642.xml	rumor de aguas lejanas, y el acento	4	B-pb_noun_prep
+Cuervo,_Guillermo__189n~~Junio__0642.xml	de las aves, idioma y sentimiento	5	B-cc_crossclause I-pb_noun_prep
+Valdés,_Gabriel_de_la_Concepción_(Plácido)__345n~~Tristes_memorias__1205.xml	de las célicas dichas, y de cuantas	11	B-pb_relword
+Valdés,_Gabriel_de_la_Concepción_(Plácido)__345n~~Tristes_memorias__1205.xml	gracias me prodigó, y ora las flores,	12	I-pb_relword
+Mendoza,_Carlos__637n~~Diciembre__2356.xml	alternan con los agrios lagrimones	11	B-cc_crossclause
+Mendoza,_Carlos__637n~~Diciembre__2356.xml	que vierten mil vivientes esqueletos;	12	I-cc_crossclause
+Rodríguez_Embil,_Luis__225n~~El_poema_del_amor_y_de_la_muerte__0728__II__02.xml	tempestad naufragar a los perdidos	4	B-pb_adj_noun I-pb_adj_noun
+Rodríguez_Embil,_Luis__225n~~El_poema_del_amor_y_de_la_muerte__0728__II__02.xml	navegantes que, ciegos, y atraídos	5	B-pb_adj_prep I-pb_adj_noun
+Rivera,_Domingo__233n~~Yo,_a_mi_cuerpo__0745.xml	¿Por qué no te he de amar? ¿Qué seré el día	11	B-cc_crossclause
+Rivera,_Domingo__233n~~Yo,_a_mi_cuerpo__0745.xml	que tú dejes de ser? ¡Profundo arcano!	12	I-cc_crossclause
+Querolt,_Vicente_Wenceslao__263n~~La_fiesta_de_Venus__0853__V__05.xml	cuerdas de seda pérsica, al ligero	4	B-pb_adj_noun I-pb_adj_noun
+Querolt,_Vicente_Wenceslao__263n~~La_fiesta_de_Venus__0853__V__05.xml	soplo del aire henchidos; con la popa	5	B-pb_noun_prep I-pb_adj_noun
+Rodríguez_Cáceres,_Ricardo__359n~~En_el_sepulcro__1264.xml	la ninfa de la fuente, el sol de fuego	11	B-cc_crossclause
+Rodríguez_Cáceres,_Ricardo__359n~~En_el_sepulcro__1264.xml	que en sus tallos y vástagos nutrían,	12	I-cc_crossclause
+Zorrilla,_José__149n~~Roma_y_Cristo__0434__I__01.xml	y alzó hasta la deidad desconocida	11	B-pb_adj_noun
+Zorrilla,_José__149n~~Roma_y_Cristo__0434__I__01.xml	templo y altar; y en este laberinto,	12	I-pb_adj_noun
+López_Velarde,_Ramón__290n~~Clor_de_cuento__0967.xml	se fue para otros climas, y pacíficamente	11	B-pb_verb_adv I-ex_subj_verb
+López_Velarde,_Ramón__290n~~Clor_de_cuento__0967.xml	celebraré contigo mis regios esponsales,	12	I-pb_verb_adv
+Estrada,_Ángel_de__416n~~Soneto__1647.xml	en él, vertiginoso, es una sombra	11	B-pb_adj_noun
+Estrada,_Ángel_de__416n~~Soneto__1647.xml	rauda volando cual visión de un mito	12	B-cc_crossclause I-pb_adj_noun
+Ugarte_y_Pages,_Francisco_Javier__342n~~Ni_Dios_ni_amo__1151.xml	Difama sin piedad la redentora	11	B-pb_adj_noun
+Ugarte_y_Pages,_Francisco_Javier__342n~~Ni_Dios_ni_amo__1151.xml	escuela del dolor y el sacrificio...	12	I-pb_adj_noun
+Agustini,_Delmira__321n~~Luz_púrpura_con_tu_retrato__1076.xml	y me abro en flor. Entonces, soberanos	8	B-pb_noun_prep
+Agustini,_Delmira__321n~~Luz_púrpura_con_tu_retrato__1076.xml	de la sombra y la luz, tus ojos graves	9	B-ex_subj_verb I-pb_noun_prep
+Valverde_López,_Carlos__330n~~Amarillo__1115.xml	y en su espalda un carcaj, destino ciego	11	B-pb_noun_prep
+Valverde_López,_Carlos__330n~~Amarillo__1115.xml	de las flechas del astro en vendaval.	12	I-pb_noun_prep
+Teurbe_Tolón_y_de_la_Guardia,_Miguel__166n~~Poesía_dedicada_a_la_bandera__0530.xml	clavando este estandarte en nuestra tierra	11	B-cc_crossclause
+Teurbe_Tolón_y_de_la_Guardia,_Miguel__166n~~Poesía_dedicada_a_la_bandera__0530.xml	que luzca siempre y que por siempre vibre,	12	I-cc_crossclause
+Ugarte_y_Pages,_Francisco_Javier__342n~~En_Sierra_Morena__1171.xml	los mundos que creaste, todavía	11	B-pb_verb_adv
+Ugarte_y_Pages,_Francisco_Javier__342n~~En_Sierra_Morena__1171.xml	pudiera honrarte más y enaltecerte	12	B-pb_verb_adv I-pb_verb_adv
+Quental,_Anthero_de__426n~~Despertar__1668.xml	me despierta. Y es noche. Es el dolor	11	B-cc_crossclause I-ex_subj_verb
+Quental,_Anthero_de__426n~~Despertar__1668.xml	que vela como antes a mi lado.	12	I-cc_crossclause
+López_Velarde,_Ramón__290n~~Mientras_muere_la_tarde__0964.xml	la llama de mi amor, yo me contento	11	B-pb_adj_prep
+López_Velarde,_Ramón__290n~~Mientras_muere_la_tarde__0964.xml	con el hondo mirar de tus arcanos	12	B-pb_adj_noun I-pb_adj_prep
+Rivas_Frade,_Federico__677n~~En_la_sierra__2436.xml	y al volver al oriente sus miradas	11	B-pb_adj_noun
+Rivas_Frade,_Federico__677n~~En_la_sierra__2436.xml	lánguidas de cansancio y amargura,	12	I-pb_adj_noun
+Flores,_Manuel_María__301n~~Genoveva__0990.xml	solitaria y dulcísima paloma	11	B-pb_adj_noun
+Flores,_Manuel_María__301n~~Genoveva__0990.xml	ajena de este mundo a los azares	12	I-pb_adj_noun
+Trenor,_Leopoldo__542n~~Primaveral__2008__El_secreto_de_la_vida__01.xml	y marché peregrino en seguimiento	4	B-pb_noun_prep
+Trenor,_Leopoldo__542n~~Primaveral__2008__El_secreto_de_la_vida__01.xml	de ese ardiente nostálgico ardimiento.	5	I-pb_noun_prep
+Muntadas_Joumet,_Juan_Federico__672n~~Inquietud__2428.xml	apaciguar estériles enojos	11	B-cc_crossclause
+Muntadas_Joumet,_Juan_Federico__672n~~Inquietud__2428.xml	que al alma abruman con tenaz porfía;	12	I-cc_crossclause
+Riba_Palacio,_Vicente__121n~~En_El_Escorial__0372.xml	esclavo de sí mismo, un soberano	11	B-cc_crossclause
+Riba_Palacio,_Vicente__121n~~En_El_Escorial__0372.xml	que la vida cruzó sin un amigo;	12	I-cc_crossclause
+Bermejo,_Enrique__620n~~El_borracho__2289.xml	es intrépido, franco y excelente	11	B-pb_adj_noun
+Bermejo,_Enrique__620n~~El_borracho__2289.xml	amigo; pero juzgo sin empacho	12	B-cc_crossclause I-pb_adj_noun
+Casal,_Julián_del__068n~~La_aparición__0239.xml	deleite invade a Herodes. La rojiza	4	B-pb_adj_noun I-ex_subj_verb
+Casal,_Julián_del__068n~~La_aparición__0239.xml	espada fulgurante inmoviliza	5	B-ex_dobj_verb I-pb_adj_noun
+Querolt,_Vicente_Wenceslao__263n~~La_fiesta_de_Venus__0853__II__02.xml	todo el golfo del África, y los senos	8	B-pb_noun_prep I-ex_dobj_verb
+Querolt,_Vicente_Wenceslao__263n~~La_fiesta_de_Venus__0853__II__02.xml	de sus risueñas costas, y el enjambre	9	B-pb_noun_prep I-pb_noun_prep
+Querolt,_Vicente_Wenceslao__263n~~La_fiesta_de_Venus__0853__II__02.xml	cristal, parecen cual bandada de aves	11	B-pb_adj_noun I-ex_subj_verb
+Querolt,_Vicente_Wenceslao__263n~~La_fiesta_de_Venus__0853__II__02.xml	fugitivas del África, que el sueño	12	B-ex_subj_verb I-pb_adj_noun
+Betancourt,_José_Ramón_de__210n~~La_que_debo_amar__0695.xml	que en su fiel corazón guarde el tesoro	11	B-pb_noun_prep
+Betancourt,_José_Ramón_de__210n~~La_que_debo_amar__0695.xml	de mi honor, mi consuelo y mi ventura.	12	I-pb_noun_prep
+López_Velarde,_Ramón__290n~~Del_seminario__0968.xml	en las misas solemnes, cuando brillaba oro	11	B-pb_noun_prep I-ex_subj_verb
+López_Velarde,_Ramón__290n~~Del_seminario__0968.xml	de casullas y mitras, en aquellas mañanas	12	B-pb_noun_prep I-pb_noun_prep
+Herrera_y_Reissig,_Julio__363n~~El_crepúsculo_del_martirio__1335.xml	que no tuviera eco... La cristiana	4	B-pb_adj_noun I-cc_crossclause
+Herrera_y_Reissig,_Julio__363n~~El_crepúsculo_del_martirio__1335.xml	viudez de aquella hora en la campana,	5	I-pb_adj_noun
+Ortiz,_Carlos__151n~~Llanto_por_una_muerte__0452.xml	y no ayuda alejando la conciencia	11	B-pb_verb_cprep
+Ortiz,_Carlos__151n~~Llanto_por_una_muerte__0452.xml	de la imagen del cuerpo sepultado.	12	I-pb_verb_cprep
+Agustini,_Delmira__321n~~Florecimiento__1048.xml	tal manos frescas, ¡ah!... ¿por qué tormentos	8	B-pb_adj_noun I-ex_dobj_verb
+Agustini,_Delmira__321n~~Florecimiento__1048.xml	misteriosos los rostros palidecen	9	B-pb_verb_adv I-pb_adj_noun
+Rodajo,_Andrés__112n~~Soneto__0360.xml	¡Todo sucumbe ante el fatal destino	11	B-cc_crossclause I-pb_noun_prep
+Rodajo,_Andrés__112n~~Soneto__0360.xml	que el universo como ley proclama!	12	I-cc_crossclause
+Silva,_José_Asunción__409n~~A_Ariadna__1613.xml	con la nostalgia se encontrara a solas	11	B-pb_adj_prep
+Silva,_José_Asunción__409n~~A_Ariadna__1613.xml	sobre las aguas de la mar gigante	12	I-pb_adj_prep
+Reyes,_Arturo__245n~~A_Málaga__0793.xml	dar ya fin para siempre a mi camino	11	B-pb_noun_prep I-ex_dobj_verb
+Reyes,_Arturo__245n~~A_Málaga__0793.xml	del zafir de tu cielo a los fulgores,	12	I-pb_noun_prep
+Fernández_y_González,_Esteban__483n~~¡1904!__1828.xml	¡Vanos efluvios de fugaz esencia	11	B-cc_crossclause
+Fernández_y_González,_Esteban__483n~~¡1904!__1828.xml	que acrecientan efímeras pasiones!	12	I-cc_crossclause
+Nápoles_Fajardo,_Juan_Cristóbal__505n~~Mis_resabios__1897.xml	hablar poco y burlarme de aquel hombre	11	B-cc_crossclause
+Nápoles_Fajardo,_Juan_Cristóbal__505n~~Mis_resabios__1897.xml	que por sabio pasando, es un jumento.	12	I-cc_crossclause
+Estrada,_Ángel_de__416n~~Calma__1645.xml	al cruzar por el diáfano paisaje	11	B-pb_noun_prep I-pb_verb_chain
+Estrada,_Ángel_de__416n~~Calma__1645.xml	de alma, fuente y estatua, con anhelo	12	B-pb_noun_prep I-pb_noun_prep
+Piedra,_Francisco_Sisto__054n~~El_cráneo_de_la_selva__0176.xml	del grito postrimero de su inerte	11	B-pb_adj_noun I-pb_noun_prep
+Piedra,_Francisco_Sisto__054n~~El_cráneo_de_la_selva__0176.xml	boca, o con el alma estremecida,	12	I-pb_adj_noun
+Althaus,_Clemente__373n~~El_hablador__1386.xml	y a tanta reunión la antes escasa	11	B-pb_adj_noun
+Althaus,_Clemente__373n~~El_hablador__1386.xml	sala se desocupa, y solamente	12	I-pb_adj_noun
+Querolt,_Vicente_Wenceslao__263n~~La_fiesta_de_Venus__0853__III__03.xml	yacen inmobles semejando aquellas	11	B-pb_relword
+Querolt,_Vicente_Wenceslao__263n~~La_fiesta_de_Venus__0853__III__03.xml	escenas de los dioses que el eterno	12	B-pb_adj_noun I-pb_relword
+Borrero,_Juana__354n~~Crepuscular__1236.xml	se escucha el aleteo de los cisnes	4	B-cc_crossclause
+Borrero,_Juana__354n~~Crepuscular__1236.xml	que, como un grupo de nevadas flores,	5	I-cc_crossclause
+Morales,_Sebastián_Alfredo_de__465n~~A_Nactalia__1771__I__01.xml	y aunque el tiempo veloz la pompa ultraje	11	B-pb_noun_prep
+Morales,_Sebastián_Alfredo_de__465n~~A_Nactalia__1771__I__01.xml	de ese tu brillo juvenil lozano,	12	I-pb_noun_prep
+Morales,_Tomás__633n~~Vamos_llegando_en_medio...__2333.xml	que hasta el viento parece que ha muerto en la bahía...	8	B-cc_crossclause I-cc_crossclause
+Morales,_Tomás__633n~~Vamos_llegando_en_medio...__2333.xml	Entramos lentamente; a nuestro lado quedan	9	B-ex_subj_verb I-cc_crossclause
+Herrera_y_Reissig,_Julio__363n~~Nirvana_crepuscular__1319.xml	materialización de una quimera...	8	B-pb_adj_noun I-pb_adj_noun
+Herrera_y_Reissig,_Julio__363n~~Nirvana_crepuscular__1319.xml	En consubstanciación con aquel bello	9	B-pb_adj_noun I-pb_adj_noun
+Ortiz,_Carlos__151n~~Soneto__0441.xml	y a la estrella acorrala con su lanza	11	B-pb_noun_prep
+Ortiz,_Carlos__151n~~Soneto__0441.xml	de albo rayo, fatal como ninguna.	12	I-pb_noun_prep
+Trueba,_Antonio_de__118n~~Soneto__0366.xml	con celadas que no usan ni las sordas	11	B-pb_noun_prep
+Trueba,_Antonio_de__118n~~Soneto__0366.xml	de taparrabo y tez de chocolate,	12	I-pb_noun_prep
+Urbach,_Carlos_Póo__031n~~In_extremis__0067.xml	que bordan los linderos del camino	11	B-cc_crossclause I-cc_crossclause
+Urbach,_Carlos_Póo__031n~~In_extremis__0067.xml	donde en áspero lecho de fría piedra	12	B-cc_crossclause I-cc_crossclause
+Figueroa,_Rudolfo__401n~~Pinceladas__1530__VIII__08.xml	y entre tanto rumor que se derrama	11	B-pb_verb_chain
+Figueroa,_Rudolfo__401n~~Pinceladas__1530__VIII__08.xml	predomina el monótono voceo	12	B-ex_dobj_verb I-pb_verb_chain
+Goygoechea_Menéndez,_Martín__367n~~Soneto__1356.xml	que alza el Aquidabán. Alguna enseña	8	B-pb_adj_noun I-cc_crossclause
+Goygoechea_Menéndez,_Martín__367n~~Soneto__1356.xml	deshilachada, trágica, en la brisa	9	I-pb_adj_noun
+Herrera_y_Reissig,_Julio__363n~~La_liga__1309.xml	la tarde... Tu mirada se hizo muda	11	B-pb_adj_prep I-ex_dobj_verb
+Herrera_y_Reissig,_Julio__363n~~La_liga__1309.xml	al erótico ritmo; ¡y desde el pardo	12	B-pb_adj_noun I-pb_adj_prep
+Goygoechea_Menéndez,_Martín__367n~~Soneto__1357.xml	Cuatro supervivientes, -cuatro lentas	8	B-pb_adj_noun
+Goygoechea_Menéndez,_Martín__367n~~Soneto__1357.xml	figuras espectrales- se movieron...	9	B-pb_adj_noun I-pb_adj_noun
+Val,_Mariano_Miguel_de__092n~~Desde_El_Pilar__0317.xml	y su casco de oro de opulenta cimera	11	B-pb_relword
+Val,_Mariano_Miguel_de__092n~~Desde_El_Pilar__0317.xml	coronada de nubes como plumas de raso	12	I-pb_relword
+Fernández,_Cayetano__246n~~Soneto__0798.xml	Ni refrena el ardor, ni aguarda, ansioso	11	B-pb_adj_prep
+Fernández,_Cayetano__246n~~Soneto__0798.xml	de sorberse la tierra, el clarín bélico.	12	I-pb_adj_prep

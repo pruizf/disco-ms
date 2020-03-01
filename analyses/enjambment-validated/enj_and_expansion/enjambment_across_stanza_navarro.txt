@@ -1,0 +1,97 @@
+FileName	Line	LNbr	EnjType
+LopezDeMendoza_25.xml	¿sentides, por ventura, los clamores	11	B-cc_crossclause
+LopezDeMendoza_25.xml	que de Bisançio por letras oístes?	12	I-cc_crossclause
+JuanaInesDeLaCruz_16.xml	mas luego la razón justa me advierte	11	B-ex_dobj_verb
+JuanaInesDeLaCruz_16.xml	que sólo se remedia en publicarlo,	12	I-ex_dobj_verb
+PedroDePadilla_38.xml	nunca lo tuvo ni tendrá la vida	8	B-pb_noun_prep I-ex_subj_verb
+PedroDePadilla_38.xml	del sentido, la vida de la muerte,	9	I-pb_noun_prep
+MiraDeAmescua_25.xml	al hombre hasta el sepulcro, y otra ha sido	4	B-ex_subj_verb I-pb_noun_prep
+MiraDeAmescua_25.xml	la que infeliz y adversa le ha seguido	5	B-ex_subj_verb I-ex_subj_verb
+FernandoDeHerrera_60.xml	de paciencia y valor, en el postrero	4	B-pb_adj_noun I-pb_adj_prep
+FernandoDeHerrera_60.xml	trance, arrojando el yugo, desespero,	5	I-pb_adj_noun
+LopezDeMendoza_27.xml	pues que el principio es çierto e sabemos	11	B-ex_dobj_verb
+LopezDeMendoza_27.xml	en todas cosas ser lo más del fecho;	12	I-ex_dobj_verb
+LopezDeMendoza_19.xml	que los leales; e si tal, sacadme	11	B-pb_verb_cprep
+LopezDeMendoza_19.xml	de tan grand pena e sentid mi mal.	12	I-pb_verb_cprep
+LopeDeVega_652.xml	por cuya gracia a vuestros pies están	11	B-ex_dobj_verb
+LopeDeVega_652.xml	la luna, el cielo, el sol, el serafín,	12	I-ex_dobj_verb
+LopeDeVega_770.xml	en pena, en vida, en muerte, en gloria quiero	11	B-ex_dobj_verb
+LopeDeVega_770.xml	darte mi alma de cualquier manera,	12	I-ex_dobj_verb
+BernardinoDeRebolledo_21.xml	vacilando los dientes certifican	11	B-ex_dobj_verb
+BernardinoDeRebolledo_21.xml	la ruina que amenaza el edificio,	12	I-ex_dobj_verb
+LopeDeVega_114.xml	dichoso yo que sin tener asida	11	B-ex_dobj_verb
+LopeDeVega_114.xml	el alma al oro, a la esperanza el plato,	12	I-ex_dobj_verb
+Quevedo_479.xml	y sólo alcanzarás puesto y oficio	11	B-pb_noun_prep
+Quevedo_479.xml	de quien su iniquidad te manifiesta;	12	I-pb_noun_prep
+LopezDeMendoza_17.xml	cuantas padezco desde la jornada	11	B-cc_crossclause
+LopezDeMendoza_17.xml	que me feriste de golpe mortal.	12	I-cc_crossclause
+LopeDeVega_639.xml	de un vil criado? ¡Vive Dios! que Pedro	8	B-ex_subj_verb I-pb_noun_prep
+LopeDeVega_639.xml	o Fabio más intentos le han contado	9	I-ex_subj_verb
+JuanBoscan_40.xml	Cuán poco es lo que puedes, pues no muero	11	B-pb_verb_cprep
+JuanBoscan_40.xml	de sólo imaginar mi triste suerte	12	B-pb_adj_noun I-pb_verb_cprep
+FranciscoDeFigueroa_14.xml	y el fuego sea bendito, cuya llama	8	B-ex_subj_verb
+FranciscoDeFigueroa_14.xml	no toca al cuerpo, que es sutil y pura,	9	I-ex_subj_verb
+FranciscoDeFigueroa_14.xml	Y así el dichoso espíritu que ama	11	B-ex_subj_verb
+FranciscoDeFigueroa_14.xml	dirá, tu rostro viendo y tu figura:	12	I-ex_subj_verb
+LopeDeVega_550.xml	pero advertir para excusar enojos	11	B-ex_dobj_verb
+LopeDeVega_550.xml	que cuando huyáis los ojos soberanos	12	B-pb_adj_adv I-ex_dobj_verb
+LopezDeMendoza_12.xml	Non pienso Juno que más ençendida	11	B-ex_subj_verb
+LopezDeMendoza_12.xml	fue contra Thebas, nin tanto indignada	12	I-ex_subj_verb
+JuanBoscan_62.xml	continuo escogen el que más desnudo	11	B-pb_adj_prep I-pb_adj_noun
+JuanBoscan_62.xml	de Amor y lealtad; y así parece	12	I-pb_adj_prep
+Gongora_42.xml	cual ya por escuchar el dulce canto	11	B-pb_noun_prep
+Gongora_42.xml	de aquel que, de Strimón en la espesura,	12	I-pb_noun_prep
+JuanBoscan_3.xml	y más me espanta verme en tal estado	11	B-pb_noun_prep
+JuanBoscan_3.xml	de no poder quitar el pensamiento	12	B-pb_noun_prep I-pb_noun_prep
+LopeDeVega_33.xml	que por la tuya a suspender barajas	11	B-ex_dobj_verb
+LopeDeVega_33.xml	los tormentos del reino del espanto?	12	I-ex_dobj_verb
+LopeDeVega_819.xml	Ero en la torre, y arrojarse luego	8	B-ex_dobj_verb
+LopeDeVega_819.xml	la punta al pecho y el aliento en calma,	9	I-ex_dobj_verb
+Gongora_104.xml	a cuántos dora el sol, a cuántos baña	11	B-pb_relword
+Gongora_104.xml	términos del Océano la espuma,	12	I-pb_relword
+ArgensolaLupercio_43.xml	Báñela aquella luz, Señor, aquella	11	B-cc_crossclause
+ArgensolaLupercio_43.xml	 que inspira perfecciones a la vida;	12	I-cc_crossclause
+LopezDeMendoza_34.xml	nin el animo mío esta suspenso	4	B-pb_noun_prep
+LopezDeMendoza_34.xml	de sus combates, con tanta porfía	5	B-cc_crossclause I-pb_noun_prep
+LopeDeVega_645.xml	Pagarte mal mi firme y feliz suerte	11	B-ex_subj_verb
+LopeDeVega_645.xml	trueca en pena triste mi alegría.	12	I-ex_subj_verb
+LopezDeMendoza_38.xml	mas la mi triste vida que desea	11	B-ex_dobj_verb
+LopezDeMendoza_38.xml	ir donde fueres, como fiel amante,	12	I-ex_dobj_verb
+JuanaInesDeLaCruz_5.xml	I en el mar de la ciencia así se anegue	11	B-ex_subj_verb
+JuanaInesDeLaCruz_5.xml	 Vajel, que -al discurrir por alcanzarte-	12	I-ex_subj_verb
+LopeDeVega_906.xml	paga la espiga en su sazón cogida	4	B-ex_dobj_verb
+LopeDeVega_906.xml	La vid beneficiada, la teñida	5	B-pb_adj_noun I-ex_dobj_verb
+DiegoRamirezPagan_7.xml	y tanto de su vista se enamora	11	B-ex_dobj_verb
+DiegoRamirezPagan_7.xml	que dijo en voz que el monte resonaba:	12	I-ex_dobj_verb
+JuanaInesDeLaCruz_11.xml	quisiera gobernar con atrevida	11	B-pb_adj_noun I-ex_subj_verb
+JuanaInesDeLaCruz_11.xml	mano, el rápido carro en luz bañado	12	B-ex_subj_verb I-pb_adj_noun
+FernandoDeHerrera_298.xml	desierto yace. ¡Oh cuánto en ti la dura	11	B-pb_adj_noun
+FernandoDeHerrera_298.xml	suerte discorde se mostró y ajena!	12	I-pb_adj_noun
+JuanDeTassisYPeralta_187.xml	poca son hoy ceniza y mucha hierba	4	B-cc_crossclause
+JuanDeTassisYPeralta_187.xml	que al poderoso culto nos reserva	5	B-ex_dobj_verb I-cc_crossclause
+JuanBoscan_45.xml	pero, después, si el falso pensamiento	11	B-ex_subj_verb
+JuanBoscan_45.xml	me da seguridad de algún consuelo,	12	I-ex_subj_verb
+JuanDeTassisYPeralta_109.xml	en su fe, su esperanza, y Dios por guía	11	B-ex_subj_verb
+JuanDeTassisYPeralta_109.xml	verá desde la tierra el cielo abierto,	12	I-ex_subj_verb
+JuanBoscan_53.xml	hasta que Dios con su absoluto mando	11	B-ex_subj_verb
+JuanBoscan_53.xml	mi guerra convirtió en tanta victoria,	12	I-ex_subj_verb
+JuanaInesDeLaCruz_3.xml	y sólo quiero ser correspondida	11	B-pb_noun_prep
+JuanaInesDeLaCruz_3.xml	de aquel que de mi amor réditos cobra;	12	I-pb_noun_prep
+LopeDeVega_1330.xml	y allí sus cuerpos, no su fama, esconde	11	B-ex_dobj_verb
+LopeDeVega_1330.xml	Que de su pura y cándida ceniza	12	B-ex_dobj_verb I-ex_dobj_verb
+JuanaInesDeLaCruz_53.xml	pudiera, del discurso con los graves	11	B-pb_adj_noun
+JuanaInesDeLaCruz_53.xml	reflejos, conocer si lo intentaras:	12	I-pb_adj_noun
+ArgensolaBartolome_60.xml	del rayo celestial verás volvella	11	B-pb_adj_prep I-pb_noun_prep
+ArgensolaBartolome_60.xml	a verte, como en vidrio cristalino	12	I-pb_adj_prep
+JuanDeArguijo_64.xml	por la voz dulce y cortesano aviso	11	B-pb_noun_prep
+JuanDeArguijo_64.xml	del culto Lope, que en su nueva historia	12	B-ex_subj_verb I-pb_noun_prep
+Gongora_51.xml	que leña y pluma gasta, cien arpones	11	B-ex_subj_verb
+Gongora_51.xml	le flechó de la aljaba de un talego.	12	I-ex_subj_verb
+LopeDeVega_1044.xml	Que temer un señor a su criado	11	B-ex_subj_verb
+LopeDeVega_1044.xml	es temer la cabeza a sus cabellos,	12	I-ex_subj_verb
+JuanaInesDeLaCruz_50.xml	otro más propio mi cariño ha hallado	11	B-ex_dobj_verb
+JuanaInesDeLaCruz_50.xml	que el curso de tu vida tenga en calma;	12	I-ex_dobj_verb
+JuanaInesDeLaCruz_72.xml	que aunque dejas burlado el lazo estrecho	11	B-cc_crossclause
+JuanaInesDeLaCruz_72.xml	que tu forma fantástica ceñía,	12	I-cc_crossclause
+LopeDeVega_540.xml	al talle el brío, al cuerpo, que estrenaba	8	B-ex_dobj_verb
+LopeDeVega_540.xml	los primeros chapines aquel día.	9	I-ex_dobj_verb

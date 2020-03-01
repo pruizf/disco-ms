@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">¡Oh breve don de tu agradable engaño,</l>
+				<l n="2" met="+-+--+---+-">dulce mal del contento aborrecido,</l>
+				<l n="3" met="++-+---+-+-" enjamb="B-ex_dobj_verb" cert="low">cuán presto pierdes el color florido</l>
+				<l n="4" met="-+---+---+-" enjamb="I-ex_dobj_verb" cert="low">y muestras los despojos de tu daño!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+++-+-" enjamb="B-ex_subj_verb" cert="low">El oro vuelto en plata un blanco paño</l>
+				<l n="6" met="+----++--+-" enjamb="B-pb_adj_prep I-ex_subj_verb" cert="low low">cubre, y el color vivo y encendido</l>
+				<l n="7" met="--+--+-+-+-" enjamb="I-pb_adj_prep" cert="low">de los ojos, sin fuerza ya y perdido,</l>
+				<l n="8" met="---+-++--+-">de tu vencido orgullo es desengaño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Acabas y tu dura tiranía.</l>
+				<l n="10" met="-+-+-+---+-" enjamb="B-pb_noun_prep" cert="mid">Y al fin, si acabas, mueres con victoria</l>
+				<l n="11" met="---+---+-+-" enjamb="I-pb_noun_prep" cert="mid">de nuestro error en devaneo tanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-" enjamb="B-pb_verb_cprep" cert="mid">Mas quien por ti se olvida y desvaría</l>
+				<l n="13" met="--+--+---+-" enjamb="I-pb_verb_cprep" cert="mid">del camino, perece sin memoria</l>
+				<l n="14" met="--++---+-+-">con mayor culpa en su perpetuo llanto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

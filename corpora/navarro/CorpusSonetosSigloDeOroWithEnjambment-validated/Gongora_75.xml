@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXII - A don Luis de Ulloa y Pereira </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-" enjamb="B-ex_subj_verb" cert="low">Generoso esplendor, sino luciente</l>
+				<l n="2" met="++-+-+-+-+-" enjamb="B-ex_subj_verb I-ex_subj_verb" cert="low low">no sólo lo es de cuanto el Duero baña</l>
+				<l n="3" met="+----+---+-" enjamb="I-ex_subj_verb" cert="low">Toro, mas del Zodíaco de España</l>
+				<l n="4" met="-+-+---+-+-">y gloria vos de amurallada frente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-" enjamb="B-pb_adj_noun" cert="mid">¿Quién, pues, región, os hizo diferente</l>
+				<l n="6" met="-+-+-+-+-+-" enjamb="I-pb_adj_noun" cert="mid">prisión amante? Mal la fuga engaña,</l>
+				<l n="7" met="-+-+-+---+-">mortal saeta, dura en la montaña</l>
+				<l n="8" met="--+-++---+-">y en las ondas más duras de la fuente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-" enjamb="B-ex_dobj_verb" cert="low">De venenosas plumas os lo diga</l>
+				<l n="10" met="-+---+---+-" enjamb="B-ex_dobj_verb I-ex_dobj_verb" cert="low low">corcillo atravesado, restituya</l>
+				<l n="11" met="--+--+---+-" enjamb="I-ex_dobj_verb" cert="low">sus trofeos al fin vuestra enemiga.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-" enjamb="B-ex_subj_verb" cert="low">Tímida fiera, bella ninfa huya</l>
+				<l n="13" met="-+---+++-+-" enjamb="B-pb_verb_adv I-ex_subj_verb" cert="mid low">espíritu gentil, no sólo siga</l>
+				<l n="14" met="-+---+-+-+-" enjamb="I-pb_verb_adv" cert="mid">mas bese en el airón la mano suya.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

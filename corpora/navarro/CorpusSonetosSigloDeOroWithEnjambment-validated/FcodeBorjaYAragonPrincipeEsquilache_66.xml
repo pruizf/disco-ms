@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- III - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-" enjamb="B-ex_dobj_verb" cert="low">Aquel tan venerable atrevimiento</l>
+				<l n="2" met="---+-+-+-+-" enjamb="B-ex_dobj_verb I-ex_dobj_verb" cert="low low">con que domó vagando el corvo pino</l>
+				<l n="3" met="--+--+---+-" enjamb="B-pb_noun_prep I-ex_dobj_verb" cert="mid low">la cerviz de las olas, peregrino</l>
+				<l n="4" met="--+--++--+-" enjamb="I-pb_noun_prep" cert="mid">a la injuria del Sol, fuerza del viento,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-" enjamb="B-ex_subj_verb" cert="low">cuando del monte el natural asiento</l>
+				<l n="6" met="-++----+-+-" enjamb="I-ex_subj_verb" cert="low">dejó, fiado a la amistad del Lino,</l>
+				<l n="7" met="-+---+-+-+-">y cómplice en la industria abrió camino</l>
+				<l n="8" met="-+-+---+-+-">al más osado, y codicioso intento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Por nuevos campos, extranjero errante,</l>
+				<l n="10" met="-+---+---+-">llevando por ejemplo la osadía,</l>
+				<l n="11" met="-+-+---+-+-">desprecia el miedo, que miró delante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--++--+-" enjamb="B-ex_dobj_verb" cert="low">¡O ambicioso poder! qué valentía</l>
+				<l n="13" met="+-+--+---+-" enjamb="I-ex_dobj_verb" cert="low">puede haber de peligros, que te espante,</l>
+				<l n="14" met="---+-+---+-">pues se rindió el mayor a tu porfía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

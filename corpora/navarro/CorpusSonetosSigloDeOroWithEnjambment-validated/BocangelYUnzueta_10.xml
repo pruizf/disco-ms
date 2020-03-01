@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-" enjamb="B-ex_dobj_verb" cert="low"> Sabio Marqués, con quien Apolo parte</l>
+				<l n="2" met="--+--+---+-" enjamb="I-ex_dobj_verb" cert="low">el laurel que corona numeroso,</l>
+				<l n="3" met="-+-+-+---+-" enjamb="B-ex_subj_verb" cert="low">porque otro medio círculo glorioso</l>
+				<l n="4" met="-+---+-+-+-" enjamb="I-ex_subj_verb" cert="low">reserva a sus previstas glorias Marte;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+--++-+-+-" enjamb="B-ex_dobj_verb" cert="low">decidme: ¿por qué siempre amor reparte</l>
+				<l n="6" met="-+-+---+-+-" enjamb="B-pb_adj_prep I-ex_dobj_verb" cert="low low">la pena, el llanto y el desdén celoso</l>
+				<l n="7" met="--+--+++-+-" enjamb="I-pb_adj_prep" cert="low">a los suyos? Si amor, ¿cómo es odioso?</l>
+				<l n="8" met="-+-+---+++-">Si de arte ofende en la deidad, ¿hay arte?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+++-+-" enjamb="B-ex_dobj_verb" cert="low">Confieso que al dolor tal vez prefiere</l>
+				<l n="10" met="-+---+---+-" enjamb="B-ex_subj_verb I-ex_dobj_verb" cert="low low">el gusto, pero ¿cuándo sus instantes</l>
+				<l n="11" met="--++-+-+-+-" enjamb="I-ex_subj_verb" cert="low">reducir a un contento supo el gusto?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">¿Por qué es ciego el amor que apunta e hiere,</l>
+				<l n="13" met="-+-+-+---+-" enjamb="B-cc_crossclause" cert="high">y no se llaman ciegos los amantes</l>
+				<l n="14" met="--+--+-+-+-" enjamb="I-cc_crossclause" cert="high">que le siguen, sabiendo que es injusto?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

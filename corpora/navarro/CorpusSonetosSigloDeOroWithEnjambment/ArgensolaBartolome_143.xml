@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-"> Sólo ofende el agüero a quien lo advierte;</l>
+				<l n="2" met="+--+-+-+-+-">véncelo, o no lo adviertas, Lauso mío;</l>
+				<l n="3" met="-+-+-+---+-" enjamb="B-ex_subj_verb" cert="low">que horrible (no fatal) su poderío</l>
+				<l n="4" met="+-+--+---+-" enjamb="I-ex_subj_verb" cert="low">tanto excede al incauto como el fuerte;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+-+-+-"> y pues tu estimación podrá ofenderte,</l>
+				<l n="6" met="-+---+---+-">refórmala con fuerza o con desvío;</l>
+				<l n="7" met="--+--+---+-">que a la luz o al error del albedrío</l>
+				<l n="8" met="-+---+---+-">se elige o se fabrica nuestra suerte;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----++--+-" enjamb="B-ex_dobj_verb" cert="low">cuya interpretación no la confía</l>
+				<l n="10" met="-+-+-+---+-" enjamb="B-cc_crossclause I-ex_dobj_verb" cert="high low">al sordo caso aquella providencia</l>
+				<l n="11" met="---+-+---+-" enjamb="I-cc_crossclause" cert="high">que a libertad y a imperio corresponde.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-" enjamb="B-pb_noun_prep" cert="mid"> Alcemos pues con tiempo la licencia</l>
+				<l n="13" met="--+--++--+-" enjamb="B-ex_dobj_verb I-pb_noun_prep" cert="low mid">al curioso temor; vamos por donde</l>
+				<l n="14" met="---+---+-+-" enjamb="I-ex_dobj_verb" cert="low">nuestra animosa ceguedad nos guía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

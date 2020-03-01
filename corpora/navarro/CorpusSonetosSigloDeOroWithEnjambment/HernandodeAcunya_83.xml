@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-" enjamb="B-pb_noun_prep" cert="mid"> Pensando en su ganado, a la ribera</l>
+				<l n="2" met="-+-+-+-+-+-" enjamb="I-pb_noun_prep" cert="mid">del mar, y no de amar, Silvano estaba</l>
+				<l n="3" met="-+---+-+-+-" enjamb="B-ex_dobj_verb" cert="low">seguro, porque el triste no pensaba</l>
+				<l n="4" met="-++--+-+-+-" enjamb="I-ex_dobj_verb" cert="low">que en él toda su fuerza Amor pusiera,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">cuando vio a una pastora que pudiera,</l>
+				<l n="6" met="-+---+---+-">con sólo la hermosura que alcanzaba,</l>
+				<l n="7" met="-+---+---+-" enjamb="B-pb_verb_adv" cert="mid">hacer que, cuando el sol se nos mostraba</l>
+				<l n="8" met="++-+-+---+-" enjamb="I-pb_verb_adv" cert="mid">más claro, muy oscuro pareciera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-" enjamb="B-pb_adj_noun" cert="mid">Quedó el pastor de sólo aquesta vista</l>
+				<l n="10" met="-+---+--++-" enjamb="I-pb_adj_noun" cert="mid">herido de la muerte que aquí pinto,</l>
+				<l n="11" met="-+---+-+-+-">con lágrimas los prados él bañando,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">diciendo: «No hay sujeto que resista,</l>
+				<l n="13" met="-+---+---+-" enjamb="B-cc_crossclause" cert="high">pastores, a mi mal, porque el distinto</l>
+				<l n="14" met="-+---++--+-" enjamb="I-cc_crossclause" cert="high">que tengo se me va, triste, acabando».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXVII - A Garcilaso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-" enjamb="B-pb_noun_prep" cert="mid">Musa, esparce purpúreas, frescas flores</l>
+				<l n="2" met="-+---+-+-+-" enjamb="I-pb_noun_prep" cert="mid">al túmulo del sacro Laso muerto;</l>
+				<l n="3" met="-+-+-+---+-">los lazos de oro suelte sin concierto</l>
+				<l n="4" met="+-+--+---+-">Venus, lloren su muerte los amores;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">arda la rota aljaba y pasadores,</l>
+				<l n="6" met="-+-+-+---+-" enjamb="B-pb_adj_noun" cert="mid">la mirra y casia y cuanto el encubierto</l>
+				<l n="7" met="+-+--+-+-+-" enjamb="B-pb_adj_noun I-pb_adj_noun" cert="mid mid">fénix quema, y con verso grave y cierto</l>
+				<l n="8" met="+--+-+---+-" enjamb="I-pb_adj_noun" cert="mid">cante su gloria Febo y sus dolores.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-" enjamb="B-ex_subj_verb" cert="low">Laso, por quien el Tajo al rico Tebro</l>
+				<l n="10" met="-+-+-+---+-" enjamb="B-pb_adj_noun I-ex_subj_verb" cert="mid low">y excede al Arno puro, sepultado</l>
+				<l n="11" met="+--+-+---+-" enjamb="I-pb_adj_noun" cert="mid">yace entre verdes hojas de amaranto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-" enjamb="B-ex_dobj_verb" cert="low">Incline el nombre claro que celebro</l>
+				<l n="13" met="--+--+---+-" enjamb="I-ex_dobj_verb" cert="low">sus coronas Parnaso, y admirado,</l>
+				<l n="14" met="-+-+-+-+-+-">venere el alto y noble y tierno canto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

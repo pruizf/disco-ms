@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVII - A Octavio Gonzaga </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-" enjamb="B-pb_noun_prep" cert="mid">Gonzaga es el origen y apellido</l>
+				<l n="2" met="---+-+---+-" enjamb="B-pb_adj_prep I-pb_noun_prep" cert="low mid">de vuestra gran Prosapia y excelente</l>
+				<l n="3" met="---+-+---+-" enjamb="I-pb_adj_prep" cert="low">en nuestra Europa muy resplandeciente</l>
+				<l n="4" met="---+-----+-">mediante el padre vuestro esclarecido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-" enjamb="B-ex_dobj_verb" cert="low">El cual del Quinto Carlos fue querido</l>
+				<l n="6" met="-+---+-+-+-" enjamb="I-ex_dobj_verb" cert="low">sus huestes gobernando sabiamente</l>
+				<l n="7" met="---+---+-+-">contra Franceses y su Rey potente</l>
+				<l n="8" met="-+---+-+-+-">con ánimo y valor jamás vencido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-++--+-" enjamb="B-ex_subj_verb" cert="low">Vos que imitando vais tanta grandeza</l>
+				<l n="10" met="-----++--+-" enjamb="B-pb_verb_adv I-ex_subj_verb" cert="mid low">adonde la virtud armas se encierra</l>
+				<l n="11" met="++---+-+-+-" enjamb="I-pb_verb_adv" cert="mid">sois digno de hacer de vos memoria.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Pues siendo en vuestra patria casa y tierra</l>
+				<l n="13" met="-+---+---+-" enjamb="B-pb_adj_noun" cert="mid">volviste a conquistar con fortaleza</l>
+				<l n="14" met="-+-+---+-+-" enjamb="I-pb_adj_noun" cert="mid">eterna fama con crecida gloria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
