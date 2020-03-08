@@ -307,6 +307,7 @@ def create_plot_grouped(percents_by_period, counts_by_period, data_by_period_and
     plt.savefig(os.path.join(oudir, "{}.svg".format(plot_grouped_fname)))
     plt.savefig(os.path.join(oudir, "{}.png".format(plot_grouped_fname)), dpi=plotdpi)
     plt.savefig(os.path.join(oudir, "{}.jpg".format(plot_grouped_fname)), dpi=plotdpi)
+    print("- Writing final plot to file [{}.jpg]\n".format(plot_grouped_fname))
     #plt.savefig(os.path.join(oudir, "{}.tif".format(plot_grouped_fname)), dpi=plotdpi)
     #plt.savefig(os.path.join(oudir, "{}.tiff".format(plot_grouped_fname)), dpi=plotdpi)
     plt.savefig(os.path.join(oudir, "{}.eps".format(plot_grouped_fname)), dpi=plotdpi)
@@ -316,7 +317,7 @@ def create_plot_grouped(percents_by_period, counts_by_period, data_by_period_and
 
 if __name__ == "__main__":
     print("\n\n# Table 5 and Figure 2 - Enjambment - Running [{}]".format(sys.argv[0]))
-    print("- Writing results to [{}]\n".format(oudir))
+    print("- Writing results to [{}]".format(oudir))
     # remove previous version since write in append mode
     try:
         os.remove(os.path.join(oudir, oufn_tp.format("all")))

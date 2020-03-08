@@ -31,7 +31,7 @@ if not os.path.exists(oudir):
     os.makedirs(oudir)
 
 print("\n\n# Figure 1 - Metrical patterns - Running [{}]".format(sys.argv[0]))
-print("- Writing plot to [{}]".format(oudir))
+print("- Writing results to [{}]".format(oudir))
 
 
 # Config
@@ -215,6 +215,8 @@ else:
         for fn in (of_both, of_both_eps, of_both_jpg):
             fn = fn.replace(".", "_vertical.")
             plt.savefig(fn, dpi=plotdpi, bbox_inches='tight')
+            if "jpg" in fn:
+                print("- Writing final plot to file [{}]".format(fn))
     else:
         #plt.tight_layout() # bbox_inches cropped better
         plt.savefig(of_both, dpi=plotdpi, bbox_inches='tight')
