@@ -123,6 +123,7 @@ def pattern2counts(di):
     for au, infos in sorted(di.items()):
         for ti, patinfo in infos.items():
             for pat in patinfo.values():
+                # last stressed syllable on hendecasyllable is 10 at most
                 if int(pat.strip().split(" ")[-1]) >= 11:
                     alexct.setdefault(pat, 0)
                     alexct[pat] += 1
@@ -160,6 +161,7 @@ def main(indi, oufn):
 
     au2mets = get_mets_from_adso(indi)
     hct, act = pattern2counts(au2mets)
+    # only hendecasyllables are written out
     write_out(hct, oufn)
 
 
