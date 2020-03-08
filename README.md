@@ -36,3 +36,36 @@
 - **Other**
     - Overlap between DISCO and Navarro's Golden Age corpus was analyzed with [`analyze_corpus_overlap.py`](./analyze_corpus_overlap.py)
     - The list of files exclusively in DISCO's Golden Age section was created with [`write_disco_only_file_list.py`](./write_disco_only_file_list.py)
+
+### Expected output
+
+    # Table 1 - Author metadata - Running [author_metadata.py]
+    - Writing author metadata to [analyses/author_metadata.txt]
+    
+    # Table 2 - Subcorpus counts DISCO - Running [metrical_pattern_counts_disco.py]
+    - Writing counts to [analyses/metrics/patterns/counts]
+    
+    # Table 2 - Subcorpus counts Navarro - Running [metrical_pattern_counts_navarro.py]
+    - Writing counts to [analyses/metrics/patterns/counts/patcounts_ga-navarro.txt]
+    
+    # Table 2 - Merged counts - Running [metrical_pattern_counts_merged.py]
+    - Writing all counts to [analyses/metrics/patterns/counts/patcounts_all.txt]
+    - Writing summary for pattern plot to [data/metrical_pattern_summary.ods]
+    
+    
+    # Figure 1 - Metrical patterns - Running [metrical_pattern_plot.py]
+    - Writing results to [analyses/metrics]
+    - Writing final plot to file [analyses/metrics/metrical_pattern_summary_vertical.jpg]
+    
+    
+    # Table 3 - Meter and Rhyme scheme in 19th century - Running [line_syllable_length_and_rhyme_scheme.py]
+    - Writing results to [analyses/syll_and_stanza.txt]
+    
+    
+    # Table 4 - Running [binary_ternary_metrical_sequences.py]
+    - Writing binary-ternary pattern data to [analyses/metrics/binary_ternary_2019/binary-ternary_results.txt]
+    
+    
+    # Table 5 and Figure 2 - Enjambment - Running [enjambment_counts_and_plot.py]
+    - Writing results to [analyses/enjambment-validated/enj_no_expansion]
+    - Writing final plot to file [plot_enjambment_noex_grouped.jpg]
