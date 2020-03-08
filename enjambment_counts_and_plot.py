@@ -25,14 +25,15 @@ include_expansion = False
 use_hand_validated = True
 
 # parts to run
-#   count: create counts, stz_table: table at stanza boundaries, plot:
+#   count: create counts, stz_table: result- table at stanza boundaries, plot: separate plots per period
+#   plot_grouped: single plot for all periods, validate: create line tables for manual validation
 runconfig = {"count": 1, "stz_table": 1, "plot": 1, "plot_grouped": 1, "validate": 1}
 if runconfig["plot"] or runconfig["plot_grouped"]:
     runconfig.update({"count": 1})
 
 # plots
 annotate_grouped_plot = True
-plotdpi = 1200
+plotdpi = 600
 # colors = ["forestgreen", "mediumseagreen", "darkorange", "royalblue"]
 plotcolors = ("tab:red", "tab:orange", "tab:green", "tab:blue")
 # labels for plots
@@ -41,6 +42,9 @@ labels = {"navarro": "Navarro et al.\nGolden Age",
           "18th": "DISCO 18th",
           "19th": "DISCO 19th"}
 
+figtitle_indiv = "Enjambment distribution"
+figtitle_grouped = "Enjambment distribution in the DISCO corpus and in Navarro et al.'s Golden Age corpus"
+titlesize = 10
 
 # IO ==========================================================================
 
@@ -167,6 +171,10 @@ def create_plot(di, of, label, color):
     mrc["font.family"] = 'Liberation Sans'
     fig, ax = plt.subplots()
 
+    # Figure title
+    # fig.subplots_adjust(top=0.85)
+    # fig.suptitle(figtitle_indiv, fontsize=titlesize, fontweight="bold")
+
     # Data
     positions = ["{}-{}".format(str.zfill(str(ke),2),
                                 str.zfill(str(ke+1), 2))
@@ -242,6 +250,13 @@ def create_plot_grouped(percents_by_period, counts_by_period, data_by_period_and
     mrc["font.family"] = 'Liberation Sans'
     mrc['font.size'] = 8
     fig = plt.figure()
+
+    # Figure title
+    # https://stackoverflow.com/questions/55767312/how-to-position-suptitle
+    #fig.subplots_adjust(top=0.83)
+    fig.subplots_adjust(top=2.5)
+    fig.suptitle(figtitle_grouped, fontsize=titlesize, fontweight="bold")
+
     ax = fig.add_subplot(111)
     bar_width = 0.2
     # plot all positions for a period
@@ -286,11 +301,15 @@ def create_plot_grouped(percents_by_period, counts_by_period, data_by_period_and
     plt.legend(edgecolor='white')
     # https://matplotlib.org/3.1.1/tutorials/intermediate/legend_guide.html
     plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc='lower left',
-               ncol=4, mode="expand", borderaxespad=0., edgecolor='w',
+               ncol=4, mode="expand", borderaxespad=-0., edgecolor='w',
                fontsize=8)
-
+    plt.tight_layout()
     plt.savefig(os.path.join(oudir, "{}.svg".format(plot_grouped_fname)))
     plt.savefig(os.path.join(oudir, "{}.png".format(plot_grouped_fname)), dpi=plotdpi)
+    plt.savefig(os.path.join(oudir, "{}.jpg".format(plot_grouped_fname)), dpi=plotdpi)
+    #plt.savefig(os.path.join(oudir, "{}.tif".format(plot_grouped_fname)), dpi=plotdpi)
+    #plt.savefig(os.path.join(oudir, "{}.tiff".format(plot_grouped_fname)), dpi=plotdpi)
+    plt.savefig(os.path.join(oudir, "{}.eps".format(plot_grouped_fname)), dpi=plotdpi)
 
 
 # Main ========================================================================
