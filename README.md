@@ -39,6 +39,8 @@
 
 ### Expected output
 
+The output of `reproduce.sh` is the following:
+
     # Table 1 - Author metadata - Running [author_metadata.py]
     - Writing author metadata to [analyses/author_metadata.txt]
     
