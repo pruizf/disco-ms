@@ -18,6 +18,7 @@ import utils
 
 # cfg
 DBG = False
+# only 19th-century results were used for paper, so no need to remove Navarro files from DISCO
 DISCO_ONLY = False
 todo_list = "data/filenames_disco_only.txt"
 
