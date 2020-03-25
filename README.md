@@ -26,6 +26,7 @@
     - [`metrical_pattern_counts_disco.py`](./metrical_pattern_counts_disco.py): Aggregates over DISCO corpus 
     - [`metrical_pattern_counts_navarro.py`](./metrical_pattern_counts_navarro.py): Aggregates over Navarro's corpus 
     - [`metrical_pattern_counts_merged.py`](./metrical_pattern_counts_merged.py): Merges results for both corpora; outputs a table with the top *n* patterns, that the plot in Figure 1 is based on
+    - [`metrical_pattern_plot.py`](./metrical_pattern_plot.py): Creates plot for Figure 1
 - **Line syllable-length and rhyme schemes** ***(Table 3)***: [`line_syllable_length_and_rhyme_scheme.py`](./line_syllable_length_and_rhyme_scheme.py)
     - Shows whether a sonnet uses alexandrine or hendecasyllable meter
     - Shows whether quatrains have enclosed or alternate rhyme
