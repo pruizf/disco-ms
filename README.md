@@ -1,5 +1,5 @@
 # DISCO analyses
-- Scripts to reproduce results of our submission about the DISCO corpus
+- Scripts to reproduce results of our [DSH paper](https://academic.oup.com/dsh/advance-article-abstract/doi/10.1093/llc/fqaa035/5902019) on the DISCO corpus.
 
 ## Requirements
 - Requires Python 2.7
