@@ -1,7 +1,7 @@
 lxml==4.4.1
 matplotlib==2.2.4
 nltk==3.4.5
-numpy==1.16.5
+numpy==1.22.0
 pandas==0.24.2
 pandas-ods-reader==0.0.7
 # Pillow if need to save .tif with matplotlib
